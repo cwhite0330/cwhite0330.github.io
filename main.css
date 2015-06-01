@@ -1,0 +1,113 @@
+/* WDDS Custom Stylesheet */
+
+/* WDDS Site Outline */
+
+/* 
+------- Table of Contents ------
+
+I.       General CSS
+II.     Home Panel CSS
+            i.  Panel Content
+III.      Title [Home] Panel CSS
+            i.  Navigation Bar Contents
+            ii. Animated Scroll Arrow
+IV.      About Panel CSS
+            i.   Image Title Bar
+            ii.  3 Column Information
+V.       Services Panel CSS
+            i.   Image Title Bar
+            ii.  Panel Background Image
+            iii. Accordion Slider & Content
+
+VI.      Porfolio Panel CSS
+VII.     Quote Panel CSS
+VIII.    Support Panel CSS
+IX.      Footer
+
+------------------------------------ 
+*/
+
+/* ------- General CSS ------- */
+@charset "UTF-8";
+
+section {
+	height: 100vh;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{ font-size: 14px; }
+
+a {text-decoration: none;}
+a:hover{color: #00d9ff;}
+
+.page-container {
+    display: -webkit-box;
+    display: flex;
+
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ------- End of General CSS ------- */
+
+/* ------- TITLE Panel------- */
+
+/* Screen Settings */
+.homescreen {
+  background-attachment: fixed;
+	background-image: url('../images/home.jpg');
+  background-position:top center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  -webkit-animation: fadein ease-in-out 2s; /* Safari and Chrome */
+      -moz-animation: fadein ease-in-out 2s; /* Firefox */
+      -ms-animation: fadein  ease-in-out 2s; /* Internet Explorer */
+      -o-animation: fadein ease-in-out 2s; /* Opera */
+      animation: fadein ease-in-out 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* End of Screen Settings */
+
+nav {
+    position: absolute;
+    top:0vh;
+	width: 100%;
+	height: 10vh;
+    z-index: 200;
+}
+.nav{
+color: #fff;
+}
