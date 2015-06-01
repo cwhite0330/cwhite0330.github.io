@@ -32,7 +32,7 @@ IX.      Footer
 
 section {
 	height: 100vh;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 body{ font-size: 14px; }
@@ -150,7 +150,7 @@ ul.menu{
 ul.menu li a{
     color: #fff;
     display: inline-block;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 1.3vw;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
