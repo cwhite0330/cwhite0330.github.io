@@ -120,7 +120,20 @@ color: #000000;
     width:100%;
     z-index: 200;
 }
-
+.title{
+font-size: 1.3vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+width: 18vw;
+padding: 1.1vw;
+margin-top: 0.5vh;
+margin-left: 0vw;
+font-weight: 600;
+position: absolute;
+top: 1vh;
+}
 .nav:hover{color: #00d9ff;}
 
 ul.menu{
