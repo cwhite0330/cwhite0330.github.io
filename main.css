@@ -111,3 +111,40 @@ z-index: 200;
 .nav{
 color: #000000;
 }
+
+.hnav{
+    display:inline-block;
+    height:10vh;
+    text-decoration: none;
+    text-transform: uppercase;
+    width:100%;
+    z-index: 200;
+}
+
+.nav:hover{color: #00d9ff;}
+
+ul.menu{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    display: flex;
+    position: absolute;
+    margin-top: 2.6vh;
+    left:35vw;
+    width: 70vw;
+}
+ul.menu li a{
+    color: #fff;
+    display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3vw;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    padding: 10px 20px 8px 20px;
+    line-height: 1em;
+    text-decoration: none;
+    font-weight: 600;
+}
