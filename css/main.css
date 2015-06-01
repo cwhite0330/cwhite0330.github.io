@@ -141,10 +141,11 @@ ul.menu{
     display: -ms-flex;
     display: flex;
     display: flex;
+    list-style-type: none;
     position: absolute;
     margin-top: 2.6vh;
-    left:35vw;
-    width: 70vw;
+    left:25vw;
+    width: 63vw;
 }
 ul.menu li a{
     color: #fff;
