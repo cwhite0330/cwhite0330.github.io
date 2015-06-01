@@ -43,10 +43,8 @@ a:hover{color: #00d9ff;}
 .page-container {
     display: -webkit-box;
     display: flex;
-
     -webkit-box-orient: vertical;
     flex-direction: column;
-
     padding: 0px;
     box-sizing: border-box;
 }
@@ -103,6 +101,7 @@ a:hover{color: #00d9ff;}
 
 nav {
 position: absolute;
+list-style-type: none;
 top:0vh;
 width: 100%;
 height: 10vh;
