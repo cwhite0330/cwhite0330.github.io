@@ -120,15 +120,14 @@ color: #000000;
     z-index: 200;
 }
 .title{
-font-size: 1.3vw;
+    font-size: 0.9vw;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-width: 18vw;
-padding: 1.1vw;
-margin-top: 0.5vh;
-margin-left: 0vw;
+width: 12vw;
+margin-top: 3vh;
+margin-left: 15vw;
 font-weight: 600;
 position: absolute;
 top: 1vh;
@@ -143,21 +142,21 @@ ul.menu{
     display: flex;
     list-style-type: none;
     position: absolute;
-    margin-top: 2.6vh;
+    margin-top: 3vh;
     left:25vw;
-    width: 63vw;
+    width: 70vw;
 }
 ul.menu li a{
     color: #fff;
     display: inline-block;
     font-family: 'Dosis', sans-serif;
-    font-size: 1.3vw;
+    font-size: 0.9vw;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    padding: 10px 20px 8px 20px;
+    padding: 10px 10px 10px;
     line-height: 1em;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 200;
 }
