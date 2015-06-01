@@ -102,12 +102,12 @@ a:hover{color: #00d9ff;}
 /* End of Screen Settings */
 
 nav {
-    position: absolute;
-    top:0vh;
-	width: 100%;
-	height: 10vh;
-    z-index: 200;
+position: absolute;
+top:0vh;
+width: 100%;
+height: 10vh;
+z-index: 200;
 }
 .nav{
-color: #fff;
+color: #000000;
 }
