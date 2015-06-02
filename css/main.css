@@ -155,7 +155,7 @@ display: flex;
 list-style-type: none;
 position: absolute;
 margin-top: 3.3vh;
-left:20vw;
+left:24vw;
 width: 76vw;
 }
 
@@ -168,7 +168,7 @@ font-size: 1.2vw;
 -moz-font-smoothing: antialiased;
 -ms-font-smoothing: antialiased;
 -o-font-smoothing: antialiased;
-padding: 5px 10px 5px 10px;
+padding: 5px 15px 5px 15px;
 text-decoration: none;
 }
 
