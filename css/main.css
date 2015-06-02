@@ -179,9 +179,10 @@ position:absolute;
 
 #courses li:hover ul{
 display:block; 
-background:none; 
+background:none;
+text-decoration: none;
 height:auto; 
-width:8em; 
+width:6em; 
 }
 
 #courses li ul li{
