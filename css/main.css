@@ -176,12 +176,14 @@ text-decoration: none;
 display:none; 
 position:absolute; 
 text-decoration:none;
+list-style-type: none;
 } 
 
 #courses li:hover ul{
 display:block; 
 background:none;
 text-decoration: none;
+list-style-type: none;
 height:auto; 
 width:6em; 
 }
@@ -189,6 +191,7 @@ width:6em;
 #courses li ul li{
 clear:both; 
 border-style:none;
+list-style-type: none;
 text-decoration:none;
 }
 
