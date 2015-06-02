@@ -136,7 +136,7 @@ font-size: 1.2vw;
 -o-font-smoothing: antialiased;
 width: 12vw;
 margin-top: 3vh;
-margin-left: 15vw;
+margin-left: 14vw;
 font-weight: 600;
 position: absolute;
 top: 1vh;
@@ -155,7 +155,7 @@ display: flex;
 list-style-type: none;
 position: absolute;
 margin-top: 3.3vh;
-left:22vw;
+left:21vw;
 width: 76vw;
 }
 
