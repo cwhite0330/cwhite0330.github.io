@@ -172,19 +172,19 @@ padding: 5px 20px 5px 20px;
 text-decoration: none;
 }
 
-navmenu li ul{ 
+#courses li ul{ 
 display:none; 
 position:absolute; 
 } 
 
-navmenu li:hover ul{
+#courses li:hover ul{
 display:block; 
 background:none; 
 height:auto; 
 width:8em; 
 }
 
-navmenu li ul li{
+#courses li ul li{
 clear:both; 
 border-style:none;
 }
