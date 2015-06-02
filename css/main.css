@@ -184,8 +184,8 @@ display:block;
 background:none;
 list-style-type: none;
 text-decoration: none;
-height:auto; 
-width:3vw; 
+height:30vh; 
+width:10vw; 
 }
 
 #courses li ul li{
