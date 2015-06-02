@@ -175,6 +175,7 @@ text-decoration: none;
 #courses li ul{ 
 display:none; 
 position:absolute; 
+text-decoration:none;
 } 
 
 #courses li:hover ul{
@@ -188,6 +189,7 @@ width:6em;
 #courses li ul li{
 clear:both; 
 border-style:none;
+text-decoration:none;
 }
 
 /*End of Navigation Bar CSS*/
