@@ -172,4 +172,21 @@ padding: 5px 20px 5px 20px;
 text-decoration: none;
 }
 
+navmenu li ul{ 
+display:none; 
+position:absolute; 
+} 
+
+navmenu li:hover ul{
+display:block; 
+background:none; 
+height:auto; 
+width:8em; 
+}
+
+navmenu li ul li{
+clear:both; 
+border-style:none;
+}
+
 /*End of Navigation Bar CSS*/
