@@ -180,20 +180,20 @@ text-decoration: none;
 } 
 
 #courses li:hover ul{
-color: #830300;
 display:block; 
 background:none;
 list-style-type: none;
 text-decoration: none;
-height:10vh; 
-width:20vw; 
 }
 
 #courses li ul li{
 clear:both; 
+color: #830300;
 border-style:none;
 list-style-type: none;
 text-decoration: none;
+height:10vh; 
+width:20vw; 
 }
 
 /*End of Navigation Bar CSS*/
