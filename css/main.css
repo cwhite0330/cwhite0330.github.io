@@ -188,7 +188,6 @@ text-decoration: none;
 
 #courses li ul li{
 clear:both; 
-color: #830300;
 border-style:none;
 list-style-type: none;
 text-decoration: none;
@@ -196,4 +195,11 @@ height:7vh;
 width:20vw; 
 }
 
+#courses li:hover ul li{
+color: #830300;
+display:block; 
+background:none;
+list-style-type: none;
+text-decoration: none;
+}
 /*End of Navigation Bar CSS*/
