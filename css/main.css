@@ -180,6 +180,7 @@ text-decoration: none;
 } 
 
 #courses li:hover ul{
+color: #830300;
 display:block; 
 background:none;
 list-style-type: none;
