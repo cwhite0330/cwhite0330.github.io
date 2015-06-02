@@ -46,15 +46,6 @@ text-decoration: none;
 a:hover{
 color: #830300;
 }
-
-.page-container {
-display: -webkit-box;
-display: flex;
--webkit-box-orient: vertical;
-flex-direction: column;
-padding: 0px;
-box-sizing: border-box;
-}
 /* ------- End of General CSS ------- */
 
 /* ------- Home Button & Homescreen Panel CSS------- */
@@ -110,9 +101,7 @@ to   { opacity: 1; }
 nav {
 position: absolute;
 list-style-type: none;
-top:0vh;
 width: 100%;
-z-index: 200;
 }
 .nav{
 color: #555555;
@@ -183,6 +172,7 @@ display:block;
 background:none;
 list-style-type: none;
 text-decoration: none;
+top: 10vh;
 }
 
 #courses li ul li{
