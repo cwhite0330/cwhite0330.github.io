@@ -173,8 +173,6 @@ clear:both;
 border-style:none;
 list-style-type: none;
 text-decoration: none;
-height:7vh; 
-width:10vw; 
 }
 
 #courses li:hover ul li{
