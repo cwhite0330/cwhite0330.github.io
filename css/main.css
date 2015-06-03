@@ -164,7 +164,7 @@ display:block;
 background:#d3d3d3;
 list-style-type: none;
 text-decoration: none;
-top: 5vh;
+top: 7vh;
 left: 7vw;
 }
 
@@ -173,8 +173,8 @@ clear:both;
 border-style:none;
 list-style-type: none;
 text-decoration: none;
-height:5vh; 
-width:10vw; 
+height:7vh; 
+width:8vw; 
 }
 
 #courses li:hover ul li{
