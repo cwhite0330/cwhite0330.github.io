@@ -165,7 +165,7 @@ background:#d3d3d3;
 list-style-type: none;
 text-decoration: none;
 top: 7vh;
-left: 17vw;
+left: 20vw;
 }
 
 #courses li ul li{
@@ -175,11 +175,4 @@ list-style-type: none;
 text-decoration: none;
 }
 
-#courses li:hover ul li{
-color: #830300;
-display:block; 
-background:none;
-list-style-type: none;
-text-decoration: none;
-}
 /*End of Navigation Bar CSS*/
