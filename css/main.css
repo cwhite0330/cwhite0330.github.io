@@ -99,21 +99,6 @@ width: 100%;
 color: #555555;
 }
 
-            
-.title{
-font-size: 1.2vw;
--webkit-font-smoothing: antialiased;
--moz-font-smoothing: antialiased;
--ms-font-smoothing: antialiased;
--o-font-smoothing: antialiased;
-width: 12vw;
-margin-top: 3vh;
-margin-left: 14vw;
-font-weight: 600;
-position: absolute;
-top: 1vh;
-}
-
 .nav:hover{
 color: #830300;
 }
@@ -127,8 +112,8 @@ display: flex;
 list-style-type: none;
 position: absolute;
 margin-top: 3vh;
-left:21vw;
-width: 87vw;
+left:20vw;
+width: 80vw;
 }
 
 ul.menu li a{
