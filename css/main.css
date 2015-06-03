@@ -162,11 +162,10 @@ text-decoration: none;
 #courses li:hover ul{
 display:block; 
 background:#d3d3d3;
-opacity:0.6;
 list-style-type: none;
 text-decoration: none;
-top: 3vh;
-left: 2vw;
+top: 5vh;
+left: 7vw;
 }
 
 #courses li ul li{
