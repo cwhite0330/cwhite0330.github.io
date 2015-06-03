@@ -175,4 +175,16 @@ list-style-type: none;
 text-decoration: none;
 }
 
+ul.subnav1 li a{
+color: #555555;
+display: inline-block;
+font-family: 'Dosis', sans-serif;
+font-size: 1.2vw;
+padding: 4px;
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-ms-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+text-decoration: none;
+}
 /*End of Navigation Bar CSS*/
