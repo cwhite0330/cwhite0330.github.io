@@ -180,7 +180,7 @@ color: #555555;
 display: inline-block;
 font-family: 'Dosis', sans-serif;
 font-size: 1.2vw;
-padding: 4px;
+padding; 0px;
 -webkit-font-smoothing: antialiased;
 -moz-font-smoothing: antialiased;
 -ms-font-smoothing: antialiased;
