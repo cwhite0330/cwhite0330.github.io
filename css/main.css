@@ -136,7 +136,7 @@ list-style-type: none;
 position: absolute;
 margin-top: 3vh;
 left:21vw;
-width: 76vw;
+width: 87vw;
 }
 
 ul.menu li a{
@@ -148,7 +148,6 @@ font-size: 1.2vw;
 -moz-font-smoothing: antialiased;
 -ms-font-smoothing: antialiased;
 -o-font-smoothing: antialiased;
-padding: 5px 20px 5px 20px;
 text-decoration: none;
 }
 
