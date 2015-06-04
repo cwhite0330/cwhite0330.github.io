@@ -137,7 +137,7 @@ text-align: center;
 /*Course Description Banner CSS*/
 .graybee{
 position: absolute;
-top:19%;
+top:17%;
 left:91%;
 width:4%;
 z-index:20;
@@ -151,7 +151,7 @@ width:20%;
 left:75%;
 opacity:0.8;
 position: absolute;
-top:12.5%;
+top:10.5%;
 z-index: 1;
 }
 .graybee:hover + .banner{
