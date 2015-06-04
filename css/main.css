@@ -239,7 +239,11 @@ top:76%;
 width: 80%;
 }
 .spotcondense{
+float:left;
 opacity: 0.8;
+position:relative;
+height:150px;
+
 }
 .spotcondense:hover{
 background-color: gray;
