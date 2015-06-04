@@ -241,7 +241,7 @@ width: 80%;
 .spotcondense{
 opacity: 0.8;
 }
-.spotcondense:hover + .spotcondense img{
+.spotcondense:hover{
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
