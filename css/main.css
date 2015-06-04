@@ -222,6 +222,7 @@ to   { opacity: 1; }
 align-content: center;
 background-color: maroon;
 border-radius: 20px;
+height:20%;
 left:10%;
 position: absolute;
 top:60%;
@@ -245,7 +246,7 @@ opacity: 0.8;
 .spotcondense img{
 background-color: white;
 border-radius: 20px;
-    display: block;
+display: block;
 margin-left: auto;
 margin-right: auto;
 opacity: 0.8;
