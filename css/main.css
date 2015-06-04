@@ -91,7 +91,7 @@ align-items: center;
 background-color: gray;
 border-radius: 10px 86px;
 color: white;
-font-family: 'Sorts Mill Goudy', serif;    
+font-family: 'Slabo 27px', serif;    
 font-size: 22px;
 height: 3%;
 opacity: 0.9;
@@ -159,7 +159,7 @@ display:block;
 }
 p.banner{
 color: white;
-font-family: 'Sorts Mill Goudy', serif;  
+font-family: 'Slabo 27px', serif; 
 font-size: 24px;
 }
 .maroon{
@@ -223,6 +223,7 @@ to   { opacity: 1; }
 align-content: center;
 background-color: maroon;
 border-radius: 20px;
+font-family: 'Slabo 27px', serif;
 height:20%;
 left:10%;
 position: absolute;
