@@ -47,7 +47,6 @@ padding: 20px;
 	clear: both;
 	padding: 0px;
 	margin: 0px;
-    height: 100%;
 }
 
 /*  COLUMN SETUP  */
@@ -98,7 +97,7 @@ opacity: 0.9;
 padding: 10px;
 position: fixed;
 left: 4%;
-top:13%;
+top:15%;
 }
 
 .primarynavmenu{
@@ -169,6 +168,14 @@ color: black;
 color:darkgray;
 }
 /*End of Course Description Banner CSS*/
+.infoscreen{
+background-color:#51aae8;
+background-size:cover;
+height: 86vh;
+overflow: hidden;
+width: 100%;
+
+}
 .homescreen {
  background-attachment: fixed;
  background-image: url("../images/home.JPG");
@@ -209,3 +216,17 @@ to   { opacity: 1; }
 }
 
 /* End of Home Button & Homescreen Panel CSS Settings */
+
+/* Center Screen Panel CSS Settings */
+.centerscreen{
+align-content: center;
+background-color: gray;
+border-radius: 20px;
+left:10%;
+position: absolute;
+top:60%;
+width: 80%;
+}
+
+
+/* Center Screen Panel CSS Settings */
