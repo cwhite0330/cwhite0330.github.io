@@ -32,6 +32,7 @@ IX.      Footer
 
 body{
 font-size: 14px; 
+padding:0px;
 }
 
 a{
@@ -97,7 +98,7 @@ opacity: 0.9;
 padding: 10px;
 position: fixed;
 left: 4%;
-top:15%;
+top:14%;
 }
 
 .primarynavmenu{
@@ -111,7 +112,7 @@ position:fixed;
 align-items: center;
 left:30%;
 list-style-type: none;
-top:8%;
+top:7%;
 width: 65%;
 }
 .primarynavmenu li ul li{
@@ -136,7 +137,7 @@ text-align: center;
 /*Course Description Banner CSS*/
 .graybee{
 position: absolute;
-top:20%;
+top:19%;
 left:91%;
 width:4%;
 z-index:20;
@@ -150,7 +151,7 @@ width:20%;
 left:75%;
 opacity:0.8;
 position: absolute;
-top:13.5%;
+top:12.5%;
 z-index: 1;
 }
 .graybee:hover + .banner{
