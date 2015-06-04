@@ -232,7 +232,7 @@ align-content: center;
 background-color: maroon;
 border-radius: 20px;
 font-family: 'Slabo 27px', serif;
-height:20%;
+height:30%;
 left:10%;
 position: absolute;
 top:76%;
@@ -250,8 +250,8 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-display:block;
-opacity:0.95;
+opacity:1;
+
 }
 .spotcondense h2{
 color: white;
