@@ -38,17 +38,36 @@ a{
 list-style-type: none;
 text-decoration: none !important;
 }
+p{
+text-indent: 35px;
+padding: 15px;
+}
 
 /* ------- End of General CSS ------- */
 
 /* ------- Home Button & Homescreen Panel CSS------- */
 /*Navigation Bar CSS*/
+.bannertitle{
+align-items: center;
+background-color: gray;
+border-radius: 35px 35px 10px 10px;
+color: white;
+font-family: 'Sorts Mill Goudy', serif;    
+font-size: 18px;
+height: 3vh;
+opacity: 0.9;
+padding: 10px;
+position: fixed;
+left: 5vw;
+top:14vh;
+}
+
 .primarynavmenu{
 background-color: gray;
-border-radius: 15px 86px;
+border-radius: 10px 86px;
 font-size: 18px;
 display:flex;
-height: 6vh;
+height:7vh;
 opacity: 0.75;
 position:fixed;
 align-items: center;
@@ -75,15 +94,32 @@ list-style-type: none;
 text-align: center;
 }
 /*End of Navigation Bar CSS*/
-.bannertitle{
-color: white;
-font-family: 'Sorts Mill Goudy', serif;    
-font-size: 18px;
-position: fixed;
-left: 5vw;
-top:15vh;
+/*Course Description Banner CSS*/
+.banner{
+background: maroon;
+border-radius: 86px 7px;
+height: 25vh;
+width:23vw;
+left:62.5vw;
+opacity:0.8;
+position: absolute;
+top: 40vh;
 }
-
+p.banner{
+color: white;
+font-family: 'Sorts Mill Goudy', serif;  
+font-size: 24px;
+}
+.maroon{
+color: black;
+}
+.gray{
+color:darkgray;
+}
+.silver{
+color: darkgray;
+}
+/*End of Course Description Banner CSS*/
 .homescreen {
  background-attachment: fixed;
  background-image: url("../images/home.JPG");
