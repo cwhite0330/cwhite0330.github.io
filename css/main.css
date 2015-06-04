@@ -46,15 +46,13 @@ color: #830300;
 
 /* ------- Home Button & Homescreen Panel CSS------- */
 /*Navigation Bar CSS*/
-.primarynavmenu:hover{
-color: #830300;
-}
 .primarynavmenu{
+font-size: 18px;
 display:flex;
 position:fixed;
-left: 30vw;
+left: 25vw;
 list-style-type: none;
-top: 11vh;
+top: 9vh;
 }
 li.pnav{
 padding: 14px;
@@ -70,7 +68,7 @@ text-align: center;
 color: white;
 font-family: 'Sorts Mill Goudy', serif;    
 font-size: 18px;
-position: absolute;
+position: fixed;
 left: 5vw;
 top:15vh;
 }
