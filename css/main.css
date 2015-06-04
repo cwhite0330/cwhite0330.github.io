@@ -232,6 +232,7 @@ opacity: 0.8;
 }
 .spotcondense:hover{
 background-color: gray;
+border-radius: 20px;
 box-shadow: 10px;
 opacity:0.95;
 }
@@ -249,5 +250,56 @@ margin-left: auto;
 margin-right: auto;
 opacity: 0.8;
 }
+/*----------------------------*/
+.coursematcondense{
+opacity: 0.8;
+}
+.coursematcondense:hover{
+background-color: gray;
+border-radius: 20px;
+box-shadow: 10px;
+opacity:0.95;
+}
+.coursematcondense h2{
+color: white;
+text-align: center;
+font-size: 30px;
+opacity: 0.8;
+}
+.coursematcondense img{
+background-color: white;
+border-radius: 20px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.8;
+}
+/*----------------------------*/
+.majorassigncondense{
+opacity: 0.8;
+}
+.majorassigncondense:hover{
+background-color: gray;
+border-radius: 20px;
+box-shadow: 10px;
+opacity:0.95;
+}
+.majorassigncondense h2{
+color: white;
+text-align: center;
+font-size: 30px;
+opacity: 0.8;
+}
+.majorassigncondense img{
+background-color: white;
+border-radius: 20px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.8;
+}
+/*----------------------------*/
 
+
+/*----------------------------*/
 /* Center Screen Panel CSS Settings */
