@@ -104,7 +104,8 @@ top:14%;
 .primarynavmenu{
 background-color: gray;
 border-radius: 10px 86px;
-font-size: 22px;
+font-size: 18px;
+font-family: 'Slabo 27px', serif;
 display:flex;
 height:5.5vh;
 opacity: 0.75;
