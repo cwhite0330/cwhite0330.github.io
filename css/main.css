@@ -39,25 +39,36 @@ list-style-type: none;
 text-decoration: none !important;
 }
 
-a:hover{
-color: #830300;
-}
 /* ------- End of General CSS ------- */
 
 /* ------- Home Button & Homescreen Panel CSS------- */
 /*Navigation Bar CSS*/
 .primarynavmenu{
+background-color: gray;
+border-radius: 15px 86px;
 font-size: 18px;
 display:flex;
+height: 6vh;
+opacity: 0.75;
 position:fixed;
-left: 25vw;
+align-items: center;
+left: 27vw;
 list-style-type: none;
-top: 9vh;
+top: 13vh;
 }
+.primarynavmenu li ul li{
+display: none;
+}
+
 li.pnav{
-padding: 14px;
-text-align: center;
+padding: 15px;
 text-decoration: none;
+}
+.pnav a{
+color: white;
+}
+.pnav a:hover{
+color: #830300;
 }
 li.subpnav{
 list-style-type: none;
