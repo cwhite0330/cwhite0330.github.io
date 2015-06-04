@@ -232,19 +232,18 @@ align-content: center;
 background-color: #c11b17;
 border-radius: 20px;
 font-family: 'Slabo 27px', serif;
-height:20%;
+height:15%;
 left:10%;
 position: absolute;
-top:70%;
+top:65%;
 width: 80%;
 }
 .spotcondense{
 float:left;
 opacity: 0.8;
 position:relative;
-height:180px;
+height:75px;
 overflow:hidden;
-
 }
 .spotcondense:hover{
 background-color: gray;
