@@ -96,7 +96,7 @@ background-color: gray;
 border-radius: 10px 86px;
 color: white;
 font-family: 'Slabo 27px', serif;    
-font-size: 200%;
+font-size: 125%;
 height: 3%;
 opacity: 0.9;
 padding: 10px;
@@ -108,7 +108,7 @@ top:14%;
 .primarynavmenu{
 background-color: gray;
 border-radius: 10px 86px;
-font-size: 18px;
+font-size: 125%;
 font-family: 'Slabo 27px', serif;
 display:flex;
 height:5.5vh;
