@@ -220,13 +220,32 @@ to   { opacity: 1; }
 /* Center Screen Panel CSS Settings */
 .centerscreen{
 align-content: center;
-background-color: gray;
+background-color: maroon;
 border-radius: 20px;
 left:10%;
 position: absolute;
 top:60%;
 width: 80%;
 }
-
+.spotcondense{
+opacity: 0.8;
+}
+.spotcondense:hover{
+background-color: gray;
+opacity:0.95;
+}
+.spotcondense h2{
+color: white;
+text-align: center;
+font-size: 30px;
+opacity: 0.8;
+}
+.spotcondense img{
+background-color: white;
+display: block;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.8;
+}
 
 /* Center Screen Panel CSS Settings */
