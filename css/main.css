@@ -95,15 +95,25 @@ text-align: center;
 }
 /*End of Navigation Bar CSS*/
 /*Course Description Banner CSS*/
+.graybee{
+position: absolute;
+top:30vh;
+left:83vw;
+z-index:200;
+}
 .banner{
 background: maroon;
-border-radius: 86px 7px;
+border-radius: 7px 7px 55px 55px;
+display:none;
 height: 25vh;
-width:23vw;
-left:62.5vw;
+width:25vw;
+left:60.7vw;
 opacity:0.8;
 position: absolute;
-top: 40vh;
+top: 19.3vh;
+}
+.graybee:hover + .banner{
+display:block;
 }
 p.banner{
 color: white;
@@ -115,9 +125,6 @@ color: black;
 }
 .gray{
 color:darkgray;
-}
-.silver{
-color: darkgray;
 }
 /*End of Course Description Banner CSS*/
 .homescreen {
