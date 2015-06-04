@@ -252,7 +252,6 @@ border-radius: 20px;
 box-shadow: 10px;
 height:300px;
 opacity:1;
-top:70%;
 overflow:visible;
 transition:height 0.5s; /* Animation time */
 -webkit-transition:height 0.5s; /* For Safari */
