@@ -96,19 +96,19 @@ background-color: gray;
 border-radius: 10px 86px;
 color: white;
 font-family: 'Slabo 27px', serif;    
-font-size: 125%;
+font-size: 115%;
 height: 3%;
 opacity: 0.9;
 padding: 10px;
 position: fixed;
-left: 5%;
-top:14%;
+left: 7%;
+top:13%;
 }
 
 .primarynavmenu{
 background-color: gray;
 border-radius: 10px 86px;
-font-size: 125%;
+font-size: 115%;
 font-family: 'Slabo 27px', serif;
 display:flex;
 height:5.5vh;
