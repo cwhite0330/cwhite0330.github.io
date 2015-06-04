@@ -243,6 +243,7 @@ float:left;
 opacity: 0.8;
 position:relative;
 height:150px;
+overflow:hidden;
 
 }
 .spotcondense:hover{
