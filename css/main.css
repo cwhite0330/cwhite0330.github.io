@@ -36,6 +36,7 @@ font-size: 14px;
 
 a{
 list-style-type: none;
+text-decoration: none !important;
 }
 
 a:hover{
@@ -45,15 +46,7 @@ color: #830300;
 
 /* ------- Home Button & Homescreen Panel CSS------- */
 /*Navigation Bar CSS*/
-nav {
-align-content: center;
-height: 5vh;
-width: 94vw;
-}
-.nav{
-color: #555555;
-}
-.nav:hover{
+.primarynavmenu:hover{
 color: #830300;
 }
 .primarynavmenu{
@@ -61,11 +54,12 @@ display:flex;
 position:fixed;
 left: 30vw;
 list-style-type: none;
-top: 5vh;
+top: 11vh;
 }
 li.pnav{
 padding: 14px;
 text-align: center;
+text-decoration: none;
 }
 li.subpnav{
 list-style-type: none;
