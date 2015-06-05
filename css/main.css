@@ -138,7 +138,6 @@ ul li {
   display: inline-block;
   position: relative;
   padding: 0px 30px 0px 30px;
-  background: #fff;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
