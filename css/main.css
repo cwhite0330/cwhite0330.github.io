@@ -228,7 +228,6 @@ to   { opacity: 1; }
 
 /* Center Screen Panel CSS Settings */
 
-/*--------------Student Spotlight Condense--------------*/
 .centerscreen{
 align-content: center;
 background-color: maroon;
@@ -236,10 +235,13 @@ border-radius: 20px;
 font-family: 'Slabo 27px', serif;
 height:20%;
 left:10%;
+opacity:0.9;
 position: absolute;
 top:60%;
 width: 80%;
 }
+
+/*--------------Student Spotlight Condense--------------*/
 .spotcondense{
 float:left;
 opacity: 0.8;
@@ -251,7 +253,7 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-height:450px;
+height:350px;
 opacity:1;
 overflow:visible;
 transition:height 0.9s; /* Animation time */
@@ -285,7 +287,7 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-height:400px;
+height:350px;
 opacity:1;
 overflow:visible;
 transition:height 0.9s; /* Animation time */
@@ -319,7 +321,7 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-height:400px;
+height:350px;
 opacity:1;
 overflow:visible;
 transition:height 0.9s; /* Animation time */
