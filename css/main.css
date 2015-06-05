@@ -114,6 +114,7 @@ background-color: gray;
 border-radius: 10px 86px;
 font-size: 115%;
 font-family: 'Slabo 27px', serif;
+margin:0;
 display:flex;
 height:5.5vh;
 opacity: 0.75;
@@ -123,6 +124,9 @@ left:30%;
 list-style-type: none;
 top:5%;
 width: 65%;
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .primarynavmenu li ul li{
 display: none;
@@ -143,6 +147,8 @@ list-style-type: none;
 text-align: center;
 }
 /*End of Navigation Bar CSS*/
+
+
 /*Course Description Banner CSS*/
 .graybee{
 position: absolute;
@@ -234,7 +240,7 @@ align-content: center;
 background-color: maroon;
 border-radius: 20px;
 font-family: 'Slabo 27px', serif;
-height:20%;
+height:19%;
 left:10%;
 opacity:0.95;
 position: absolute;
