@@ -318,7 +318,14 @@ margin-right: auto;
 opacity: 0.8;
 }
 /*----------------------------*/
-
+#hexagon {
+	border-style:solid;
+	border-color:white
+	border-width:2px;
+	width: 100px;
+	height: 55px;
+	position: relative;
+}
 
 /*----------------------------*/
 /* Center Screen Panel CSS Settings */
