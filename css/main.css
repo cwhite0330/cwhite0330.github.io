@@ -263,7 +263,7 @@ transition:height 0.9s; /* Animation time */
 color: white;
 text-align: center;
 font-size: 150%;
-opacity: 0.8;
+opacity: 1;
 }
 .spotcondense img{
 border-radius: 20px;
