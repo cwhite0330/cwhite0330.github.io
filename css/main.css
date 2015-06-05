@@ -155,13 +155,27 @@ color: white;
 .pnav:hover {
   background: maroon;
 }
+.coursesback{
+border-radius: 10px 86px;
+width:6vw;
+text-align: center;
+}
+.coursesback:hover {
+  background: maroon;
+}
+.coursesback li{
+text-shadow: 0 -1px 0 #000;
+}
+.coursesback h4{
+color: white;
+}
 .subnav1 {
   background: gray;
   padding: 0;
   position: absolute;
-  top: 6.5vh;
-  left: 0;
-  width: 150px;
+  top: 5vh;
+  left: 20.5vw;
+  width: 7vw;;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -171,7 +185,7 @@ color: white;
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
-    z-index: 500;
+    z-index: -5000;
 }
 .subnav1 li { 
   background: gray; 
@@ -182,7 +196,7 @@ text-align: center;
     text-shadow: 0 -1px 0 #000;
 }
 .primarynavmenu li ul li:hover { background: maroon; }
-ul li:hover ul {
+.coursesback:hover + .subnav1 {
   display: block;
   opacity: 1;
   visibility: visible;
