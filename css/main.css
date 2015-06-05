@@ -132,8 +132,14 @@ width: 65%;
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+.pnav{
 
-ul li {
+}
+.pnav h4{
+color: white;
+}
+
+.primarynavmenu li {
   font-size:100%;
   display: inline-block;
   position: relative;
@@ -145,11 +151,12 @@ ul li {
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
-ul li:hover {
+
+.primarynavmenu li:hover {
   background: #555;
   color: #fff;
 }
-ul li ul {
+.primarynavmenu li ul {
   padding: 0;
   position: absolute;
   top: 48px;
@@ -167,13 +174,13 @@ ul li ul {
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
-ul li ul li { 
+.primarynavmenu li ul li { 
   background: #555; 
   display: block; 
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
-ul li ul li:hover { background: #666; }
+.primarynavmenu li ul li:hover { background: #666; }
 ul li:hover ul {
   display: block;
   opacity: 1;
