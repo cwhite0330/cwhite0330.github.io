@@ -235,7 +235,7 @@ border-radius: 20px;
 font-family: 'Slabo 27px', serif;
 height:20%;
 left:10%;
-opacity:0.9;
+opacity:0.95;
 position: absolute;
 top:60%;
 width: 80%;
@@ -244,7 +244,7 @@ width: 80%;
 /*--------------Student Spotlight Condense--------------*/
 .spotcondense{
 float:left;
-opacity: 0.8;
+opacity: 0.9;
 position:relative;
 height:150px;
 overflow:hidden;
@@ -278,7 +278,7 @@ opacity: 0.8;
 
 .coursematcondense{
 float:left;
-opacity: 0.8;
+opacity: 0.9;
 position:relative;
 height:150px;
 overflow:hidden;
@@ -297,7 +297,7 @@ transition:height 0.9s; /* Animation time */
 color: white;
 text-align: center;
 font-size: 150%;
-opacity: 0.8;
+opacity: 1;
 }
 .coursematcondense img{
 border-radius: 20px;
@@ -312,7 +312,7 @@ opacity: 0.8;
 
 .majorassigncondense{
 float:left;
-opacity: 0.8;
+opacity: 0.9;
 position:relative;
 height:150px;
 overflow:hidden;
@@ -331,7 +331,7 @@ transition:height 0.9s; /* Animation time */
 color: white;
 text-align: center;
 font-size: 150%;
-opacity: 0.8;
+opacity: 1;
 }
 .majorassigncondense img{
 border-radius: 20px;
