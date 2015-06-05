@@ -98,11 +98,15 @@ color: white;
 font-family: 'Slabo 27px', serif;  
 font-size:70%;
 height: 5%;
+margin:0;
 width:15%;
 opacity: 0.9;
 position: fixed;
 left: 4%;
 top:15%;
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .bannertitle h1{
 text-align:center;
@@ -242,10 +246,14 @@ border-radius: 20px;
 font-family: 'Slabo 27px', serif;
 height:19%;
 left:10%;
+margin:0;
 opacity:0.95;
 position: absolute;
 top:60%;
 width: 80%;
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 /*--------------Student Spotlight Condense--------------*/
