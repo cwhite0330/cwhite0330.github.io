@@ -273,7 +273,7 @@ align-content: center;
 background-color: maroon;
 border-radius: 20px;
 font-family: 'Slabo 27px', serif;
-height:19%;
+height:21%;
 left:10%;
 margin:0;
 opacity:0.95;
@@ -297,7 +297,7 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-height:350px;
+height:300px;
 opacity:1;
 overflow:visible;
 transition:height 0.9s; /* Animation time */
@@ -331,7 +331,7 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-height:350px;
+height:300px;
 opacity:1;
 overflow:visible;
 transition:height 0.9s; /* Animation time */
@@ -365,7 +365,7 @@ overflow:hidden;
 background-color: gray;
 border-radius: 20px;
 box-shadow: 10px;
-height:350px;
+height:300px;
 opacity:1;
 overflow:visible;
 transition:height 0.9s; /* Animation time */
