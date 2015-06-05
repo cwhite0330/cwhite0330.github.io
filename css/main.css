@@ -127,13 +127,13 @@ align-items: center;
 left:30%;
 list-style-type: none;
 top:5%;
-width: 65%;
+width: 55%;
 -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 .pnav{
-
+border-radius: 10px 86px;
 }
 .pnav h4{
 color: white;
@@ -152,9 +152,8 @@ color: white;
   transition: all 0.2s;
 }
 
-.primarynavmenu li:hover {
-  background: #555;
-  color: #fff;
+.pnav:hover {
+  background: maroon;
 }
 .primarynavmenu li ul {
   padding: 0;
