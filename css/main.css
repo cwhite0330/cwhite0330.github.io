@@ -134,11 +134,10 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 ul li {
-  font: bold 12px/18px sans-serif;
+  font-size:100%;
   display: inline-block;
-  margin-right: -4px;
   position: relative;
-  padding: 15px 20px;
+  padding: 0px 30px 0px 30px;
   background: #fff;
   cursor: pointer;
   -webkit-transition: all 0.2s;
