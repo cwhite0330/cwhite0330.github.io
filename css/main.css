@@ -191,10 +191,13 @@ box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
 
 .primarynavmenu li ul li h5{
 color:white;
+opacity: 1;
 }
 
 .primarynavmenu li ul li:hover { 
-background: #8C001A; 
+background: #8C001A;
+opacity: 1;
+
 }
 .primarynavmenu li:hover ul {
   display: block;
