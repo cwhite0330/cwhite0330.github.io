@@ -164,7 +164,7 @@ color: white;
   padding: 0;
   position: absolute;
   top: 7.5vh;
-  left: 2vw;
+  left: 1vw;
   width: 5vw;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -193,7 +193,9 @@ color: white;
 .subnav1{
 background:gray;
 }
-
+.courses{
+width:3vw;
+}
 /*End of Navigation Bar CSS*/
 
 
