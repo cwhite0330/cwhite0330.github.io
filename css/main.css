@@ -160,9 +160,10 @@ color: white;
 }
 
 .primarynavmenu li ul {
+  background:gray;
   padding: 0;
   position: absolute;
-  top: 48px;
+  top: 7vh;
   left: 0;
   width: 150px;
   -webkit-box-shadow: none;
@@ -177,8 +178,7 @@ color: white;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
-.primarynavmenu li ul li { 
-  background: #555; 
+.primarynavmenu li ul li {
   display: block; 
   color: #fff;
   text-align:center;
