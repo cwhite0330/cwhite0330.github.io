@@ -165,7 +165,7 @@ color: white;
   position: absolute;
   top: 7.5vh;
   left: 3.1vw;
-  width: 6vw;
+  width: 5.8vw;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -294,7 +294,7 @@ to   { opacity: 1; }
 
 .centerscreen{
 align-content: center;
-background-color: maroon;
+background-color: gray;
 border-radius: 20px;
 font-family: 'Slabo 27px', serif;
 height:21%;
