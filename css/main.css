@@ -112,6 +112,14 @@ top:15%;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
+.primarycoursenav:hover {
+background: maroon;
+opacity: 1;
+-webkit-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
+box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
+}
+
 .primarycoursenav h1{
 font-size:110%;
 }
