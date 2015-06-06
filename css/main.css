@@ -156,7 +156,10 @@ color: white;
 }
 
 .pnav:hover {
-  background: maroon;
+background: maroon;
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 .primarynavmenu li ul {
@@ -190,7 +193,7 @@ color:white;
 }
 
 .primarynavmenu li ul li:hover { 
-background: #666; 
+background: #8C001A; 
 }
 .primarynavmenu li:hover ul {
   display: block;
