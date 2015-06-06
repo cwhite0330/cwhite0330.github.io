@@ -181,6 +181,7 @@ color: white;
   background: #555; 
   display: block; 
   color: #fff;
+  text-align:center;
   text-shadow: 0 -1px 0 #000;
 }
 .primarynavmenu li ul li:hover { background: #666; }
@@ -189,7 +190,9 @@ color: white;
   opacity: 1;
   visibility: visible;
 }
-
+.subnav1{
+background:gray;
+}
 
 /*End of Navigation Bar CSS*/
 
