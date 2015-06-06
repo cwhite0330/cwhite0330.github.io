@@ -189,7 +189,9 @@ color: white;
 color:white;
 }
 
-.primarynavmenu li ul li:hover { background: #666; }
+.primarynavmenu li ul li:hover { 
+background: #666; 
+}
 .primarynavmenu li:hover ul {
   display: block;
   opacity: 1;
@@ -294,10 +296,10 @@ to   { opacity: 1; }
 
 .centerscreen{
 align-content: center;
-background-color: gray;
+background-color: white;
 border-radius: 20px;
 font-family: 'Slabo 27px', serif;
-height:21%;
+height:15%;
 left:10%;
 margin:0;
 opacity:0.95;
@@ -331,7 +333,7 @@ transition:height 0.9s; /* Animation time */
 }
 
 .spotcondense h2{
-color: white;
+color: maroon;
 text-align: center;
 font-size: 150%;
 opacity: 1;
@@ -367,7 +369,7 @@ transition:height 0.9s; /* Animation time */
 -webkit-transition:height 0.9s; /* For Safari */
 }
 .coursematcondense h2{
-color: white;
+color: maroon;
 text-align: center;
 font-size: 150%;
 opacity: 1;
@@ -401,7 +403,7 @@ transition:height 0.9s; /* Animation time */
 -webkit-transition:height 0.9s; /* For Safari */
 }
 .majorassigncondense h2{
-color: white;
+color: maroon;
 text-align: center;
 font-size: 150%;
 opacity: 1;
