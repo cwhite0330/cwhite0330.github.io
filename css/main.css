@@ -164,7 +164,7 @@ color: white;
   padding: 0;
   position: absolute;
   top: 7.5vh;
-  left: 1vw;
+  left: 3vw;
   width: 5vw;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -184,17 +184,21 @@ color: white;
   text-align:center;
   text-shadow: 0 -1px 0 #000;
 }
+
+.primarynavmenu li ul li h5{
+color:white;
+}
+
 .primarynavmenu li ul li:hover { background: #666; }
 .primarynavmenu li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
-.subnav1{
-background:gray;
-}
+
 .courses{
 width:5vw;
+text-align:center;
 }
 /*End of Navigation Bar CSS*/
 
