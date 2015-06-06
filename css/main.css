@@ -113,7 +113,7 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 .primarycoursenav h1{
-font-size:115%;
+font-size:125%;
 }
 .primarycoursenav li{
 list-style-type:none;
@@ -125,7 +125,7 @@ list-style-type:none;
   position: absolute;
   top: 5vh;
   left: 3.2vw;
-  width: 5.6vw;
+  width: 7vw;
 -webkit-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
 box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
