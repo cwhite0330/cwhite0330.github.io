@@ -27,7 +27,8 @@ IX.      Footer
 ------------------------------------ 
 */
 
-/* ------- General CSS ------- */
+/* ----------- General CSS ---------- */
+
 @charset "UTF-8";
 
 body{
@@ -82,7 +83,9 @@ padding: 20px;
 /* ------- End of General CSS ------- */
 
 /* ------- Home Button & Homescreen Panel CSS------- */
+
 /*Navigation Bar CSS*/
+
 .schoollogo{
 height: 12%;
 position: fixed;
@@ -108,6 +111,7 @@ top:15%;
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+
 .bannertitle h1{
 text-align:center;
 font-size:175%;
@@ -137,69 +141,56 @@ color: white;
 }
 
 .pnav {
-  font-size:100%;
-  border-radius: 10px 86px;
-  display: inline-block;
-  position: relative;
-  padding: 0px 30px 0px 30px;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-    z-index: 10;
+ font-size:100%;
+ border-radius: 10px 86px;
+ display: inline-block;
+ position: relative;
+ padding: 0px 30px 0px 30px;
+ cursor: pointer;
+ -webkit-transition: all 0.2s;
+ -moz-transition: all 0.2s;
+ -ms-transition: all 0.2s;
+ -o-transition: all 0.2s;
+ transition: all 0.2s;
+ z-index: 10;
 }
 
 .pnav:hover {
   background: maroon;
 }
-.coursesback{
-border-radius: 10px 86px;
-width:6vw;
-text-align: center;
-}
-.coursesback:hover {
-  background: maroon;
-}
-.coursesback li{
-text-shadow: 0 -1px 0 #000;
-}
-.coursesback h4{
-color: white;
-}
-.subnav1 {
-  background: gray;
+
+.primarynavmenu li ul {
   padding: 0;
   position: absolute;
-  top: 5vh;
-  left: 20.5vw;
-  width: 7vw;;
+  top: 48px;
+  left: 0;
+  width: 150px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  display: none;
   opacity: 0;
+  visibility: hidden;
   -webkit-transiton: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
-    z-index: -5000;
 }
-.subnav1 li { 
-  background: gray; 
+.primarynavmenu li ul li { 
+  background: #555; 
   display: block; 
   color: #fff;
-padding: 0;
-text-align: center;
-    text-shadow: 0 -1px 0 #000;
+  text-shadow: 0 -1px 0 #000;
 }
-.primarynavmenu li ul li:hover { background: maroon; }
-.pnav:hover li{
+.primarynavmenu li ul li:hover { background: #666; }
+.primarynavmenu li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
 }
+
+
 /*End of Navigation Bar CSS*/
 
 
@@ -237,15 +228,17 @@ color: black;
 .gray{
 color:darkgray;
 }
+
 /*End of Course Description Banner CSS*/
+
 .infoscreen{
 background-color:#51aae8;
 background-size:cover;
 height: 86vh;
 overflow: hidden;
 width: 100%;
-
 }
+
 .homescreen {
  background-attachment: fixed;
  background-image: url("../images/home.JPG");
@@ -260,6 +253,7 @@ width: 100%;
  -o-animation: fadein ease-in-out 2s; /* Opera */
  animation: fadein ease-in-out 2s;
 }
+
 @keyframes fadein {
 from { opacity: 0; }
 to   { opacity: 1; }
@@ -307,6 +301,7 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
 /*--------------Student Spotlight Condense--------------*/
+
 .spotcondense{
 float:left;
 opacity: 0.9;
@@ -314,6 +309,7 @@ position:relative;
 height:150px;
 overflow:hidden;
 }
+
 .spotcondense:hover{
 background-color: gray;
 border-radius: 20px;
@@ -324,12 +320,14 @@ overflow:visible;
 transition:height 0.9s; /* Animation time */
 -webkit-transition:height 0.9s; /* For Safari */
 }
+
 .spotcondense h2{
 color: white;
 text-align: center;
 font-size: 150%;
 opacity: 1;
 }
+
 .spotcondense img{
 border-radius: 20px;
 display: block;
@@ -337,7 +335,8 @@ margin-left: auto;
 margin-right: auto;
 opacity: 0.8;
 }
-/*-------------------------------------------*/
+
+/*-----------------------------------------------------*/
 
 /*--------------Course Materials Condense--------------*/
 
