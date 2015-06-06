@@ -160,12 +160,12 @@ color: white;
 }
 
 .primarynavmenu li ul {
-  background:gray;
+  background:maroon;
   padding: 0;
   position: absolute;
-  top: 7vh;
+  top: 7.5vh;
   left: 0;
-  width: 150px;
+  width: 5vw;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
