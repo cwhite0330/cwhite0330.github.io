@@ -355,6 +355,9 @@ color:darkgray;
   border-bottom: solid 1.4142px #333333;
   border-left: solid 1.4142px #333333;
 }
+.hexagon:hover{
+background-color:maroon;
+}
 
 /*---------------------------------*/
 #hex1{
