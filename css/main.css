@@ -324,7 +324,7 @@ color:darkgray;
   position: relative;
   width: 29px; 
   height: 16.74px;
-  background-color: #fafdfd;
+  background-color: gray;
   margin: 8.37px 0;
   border-left: solid 1px #333333;
   border-right: solid 1px #333333;
@@ -372,8 +372,8 @@ left:50.7%;
 }
 #hex3{
 opacity:0.80;
-top:45%;
-left:52%;
+top:44.8%;
+left:51%;
 }
 
 /*End of Honeycomb Effect CSS*/
