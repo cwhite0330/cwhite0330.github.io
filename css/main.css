@@ -112,14 +112,6 @@ top:15%;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
-.primarycoursenav:hover {
-background: maroon;
-opacity: 1;
--webkit-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
-}
-
 .primarycoursenav h1{
 font-size:110%;
 }
@@ -129,23 +121,23 @@ list-style-type:none;
 }
 
 .primarycoursenav li ul {
-  background:maroon;
-  padding: 0;
-  position: absolute;
-  top: 5vh;
-  left: 3.2vw;
-  width: 9vw;
+background:maroon;
+padding: 0;
+position: absolute;
+top: 5vh;
+left: 4vw;
+width: 10vw;
 -webkit-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
 box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
+display: none;
+opacity: 0;
+visibility: hidden;
+-webkit-transiton: opacity 0.2s;
+-moz-transition: opacity 0.2s;
+-ms-transition: opacity 0.2s;
+-o-transition: opacity 0.2s;
+-transition: opacity 0.2s;
 }
 .primarycoursenav li ul li {
   display: block; 
@@ -169,6 +161,29 @@ opacity: 1;
   display: block;
   opacity: 1;
   visibility: visible;
+}
+
+.pcnav {
+ font-size:110%;
+ border-radius: 10px 86px;
+ display: inline-block;
+ position: relative;
+ padding: 0px 30px 0px 30px;
+ cursor: pointer;
+ -webkit-transition: all 0.2s;
+ -moz-transition: all 0.2s;
+ -ms-transition: all 0.2s;
+ -o-transition: all 0.2s;
+ transition: all 0.2s;
+ z-index: 10;
+}
+
+.pcnav:hover {
+background: maroon;
+opacity: 1;
+-webkit-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
+box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
 }
 
 .primarynavmenu{
