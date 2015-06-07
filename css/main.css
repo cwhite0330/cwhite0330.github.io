@@ -322,10 +322,10 @@ color:darkgray;
 /*Honeycomb Effect CSS*/
 .hexagon {
   position: relative;
-  width: 50px; 
-  height: 28.87px;
+  width: 29px; 
+  height: 16.74px;
   background-color: #fafdfd;
-  margin: 14.43px 0;
+  margin: 8.37px 0;
   border-left: solid 4px #333333;
   border-right: solid 4px #333333;
 }
@@ -335,23 +335,23 @@ color:darkgray;
   content: "";
   position: absolute;
   z-index: 1;
-  width: 35.36px;
-  height: 35.36px;
+  width: 20.51px;
+  height: 20.51px;
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
-  left: 3.3223px;
+  left: 0.2470px;
 }
 
 .hexagon:before {
-  top: -17.6777px;
+  top: -10.2530px;
   border-top: solid 5.6569px #333333;
   border-right: solid 5.6569px #333333;
 }
 
 .hexagon:after {
-  bottom: -17.6777px;
+  bottom: -10.2530px;
   border-bottom: solid 5.6569px #333333;
   border-left: solid 5.6569px #333333;
 }
