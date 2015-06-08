@@ -47,6 +47,9 @@ p{
 text-indent: 35px;
 padding: 20px;
 }
+img{
+max-width:100%;
+}
 
 /*  SECTIONS  */
 .section {
@@ -387,6 +390,7 @@ left:50.8%;
 
 /*End of Honeycomb Effect CSS*/
 
+/*Help Panel CSS*/
 
 .infoscreen{
 background-color:#51aae8;
@@ -395,6 +399,12 @@ height: 100vh;
 overflow: hidden;
 width: 100%;
 }
+
+.classparagraph{
+
+}
+
+/*End of Help Panel CSS*/
 
 .homescreen {
  background-attachment: fixed;
