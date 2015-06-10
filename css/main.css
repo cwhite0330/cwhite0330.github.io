@@ -281,7 +281,7 @@ width: 15%;
 .graybee{
 position: absolute;
 top:16.5%;
-left:86%;
+left:95%;
 width:4%;
 z-index:20;
 }
@@ -356,8 +356,8 @@ background-color:maroon;
 /*---------------------------------*/
 #hex1{
 opacity:0.8;
-top:25%;
-left:75%;
+top:18%;
+left:95%;
 }
 #hex2{
 opacity:0.8;
