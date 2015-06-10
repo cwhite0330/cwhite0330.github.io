@@ -98,12 +98,11 @@ left: 3%;
 }
 
 .primarycoursenav{
-align-items: center;
+align-content: center;
 background-color: gray;
 border-radius: 10px 86px;
 color: white;
 font-family: 'Slabo 27px', serif;  
-width: 22%;
 opacity: 0.9;
 position: fixed;
 left: 3%;
@@ -115,6 +114,7 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 
 .primarycoursenav li{
 text-align:center;
+align-content:center;
 list-style-type:none;
 }
 
