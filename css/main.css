@@ -121,7 +121,7 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 background:maroon;
 padding: 0;
 position: absolute;
-top: 7.9vh;
+top: 7.2vh;
 left: 4vw;
 width: 73%;
 -webkit-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
@@ -232,7 +232,7 @@ box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
   background:maroon;
   padding: 0;
   position: absolute;
-  top: 7.9vh;
+  top: 7.2vh;
   left: 4vw;
   width: 8.5vw;
 -webkit-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
@@ -280,8 +280,8 @@ width: 15%;
 /*Course Description Banner CSS*/
 .graybee{
 position: absolute;
-top:16.5%;
-left:90%;
+top:14%;
+left:92%;
 width:4%;
 z-index:20;
 }
@@ -357,28 +357,31 @@ background-color:maroon;
 #hex1{
 opacity:0.8;
 top:20%;
-left:90%;
+left:92%;
 }
 #hex2{
 opacity:0.8;
-top:24.7%;
-left:90.7%;
+top:19.9%;
+left:91%;
 }
 #hex3{
 opacity:0.80;
-top:44.6%;
-left:51.6%;
+top:16.9%;
+left:93.1%;
 }
 #hex4{
 opacity:0.8;
-top:44.6%;
-left:52.3%;
+top:14.1%;
+left:95.3%;
 }
 #hex5{
-top:42%;
-left:50.8%;
+top:11.3%;
+left:97.5%;
 }
-
+#hex6{
+top:5.4%;
+left:94.2%;
+}
 /*End of Honeycomb Effect CSS*/
 
 /*Help Panel CSS*/
