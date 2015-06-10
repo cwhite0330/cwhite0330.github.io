@@ -97,6 +97,10 @@ width: 35%;
 left: 3%;
 }
 
+#home{
+color:white;
+}
+
 .primarycoursenav{
 align-content: center;
 background-color: gray;
@@ -107,6 +111,7 @@ opacity: 0.9;
 position: fixed;
 left: 3%;
 top: 13%;
+width:25%;
 text-align:center;
 -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
