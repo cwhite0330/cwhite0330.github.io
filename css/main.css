@@ -103,7 +103,6 @@ background-color: gray;
 border-radius: 10px 86px;
 color: white;
 font-family: 'Slabo 27px', serif;  
-font-size:80%;
 height: 5%;
 width: 24%;
 opacity: 0.9;
@@ -115,9 +114,6 @@ top:10%;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
-.primarycoursenav h1{
-font-size:80%;
-}
 .primarycoursenav li{
 text-align:center;
 left:-1vw;
