@@ -104,11 +104,11 @@ border-radius: 10px 86px;
 color: white;
 font-family: 'Slabo 27px', serif;  
 height: 5%;
-width: 24%;
+width: 22%;
 opacity: 0.9;
 position: fixed;
-left: 4%;
-top:10%;
+left: 3%;
+top: 15%;
 -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -149,6 +149,7 @@ visibility: hidden;
 .primarycoursenav li ul li h4{
 color:white;
 opacity: 1;
+text-align:center;
 }
 
 .primarycoursenav li ul li:hover { 
@@ -196,7 +197,7 @@ align-items: center;
 left:30%;
 list-style-type: none;
 top:5%;
-width: 55%;
+width: 60%;
 -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
