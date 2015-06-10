@@ -148,7 +148,6 @@ visibility: hidden;
 
 .primarycoursenav li ul li h4{
 color:white;
-font-size:100%;
 opacity: 1;
 }
 
@@ -164,7 +163,6 @@ opacity: 1;
 }
 
 .pcnav {
- font-size:110%;
  border-radius: 10px 86px;
  display: inline-block;
  position: relative;
@@ -189,7 +187,6 @@ box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
 .primarynavmenu{
 background-color: gray;
 border-radius: 10px 86px;
-font-size: 105%;
 font-family: 'Slabo 27px', serif;
 margin:0;
 display:flex;
@@ -210,7 +207,6 @@ color: white;
 }
 
 .pnav {
- font-size:110%;
  border-radius: 10px 86px;
  display: inline-block;
  position: relative;
@@ -306,7 +302,6 @@ display:block;
 p.banner{
 color: white;
 font-family: 'Slabo 27px', serif; 
-font-size: 24px;
 }
 .maroon{
 color: black;
