@@ -164,6 +164,7 @@ opacity: 1;
  border-radius: 10px 86px;
  display: inline-block;
  height:5%;
+ right:5%;
  position: relative;
  cursor: pointer;
  -webkit-transition: all 0.2s;
