@@ -31,454 +31,69 @@ IX.      Footer
 
 @charset "UTF-8";
 
-body{
-font-size: 100%; 
--webkit-font-smoothing: antialiased !important;
--moz-osx-font-smoothing: grayscale;
-padding:0px;
-}
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
-a{
-list-style-type: none;
-text-decoration: none !important;
-}
+/* Override UGG site */
+#main {width: 100%; padding:0;}
+.content-asset p {margin:0 auto;}
+.breadcrumb {display:none;}
 
-p{
-text-indent: 35px;
-padding: 20px;
-}
-img{
-max-width:100%;
-max-height:100%;
-}
+/* Helpers */
+/**************************/
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
 
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
+/* Typography */
+/**************************/
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
 
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
+.sc {color: #3b8595;}
+.ny {color: #3d3c3a;}
+.atw {color: #c48660;}
 
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+/* Section - Title */
+/**************************/
+#parallax-world-of-ugg .title {background: skyblue; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
 
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.13%; }
-.span_1_of_3 { width: 32.26%; }
+/* Section - Block */
+/**************************/
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
-}
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.thestar.com/content/dam/thestar/sports/olympics/2012/08/07/london_2012_controversial_soccer_referee_christina_pederson_an_experienced_official/christinapedersen.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://sonconslow.org/wp-content/uploads/2010/08/soccer.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://news.byu.edu/releases/archive14/Jun/refs/Unknown-1.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://media.nj.com/southjerseyhssports/photo/girls-soccer-roundup-photo-lmn-3200-9037787jpg-a65fde8e9554fd62.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
-/* ------- End of General CSS ------- */
+#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://static.wixstatic.com/media/847c88_c3ce55d312a42b0d1eaea5c9903d1a4f.jpg_1024); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
-/* ------- Home Button & Homescreen Panel CSS------- */
-
-/*Navigation Bar CSS*/
-
-.schoollogo{
-height: 25%;
-position: fixed;
-width: 35%;
-left: 3%;
-}
-
-#home h4{
-color:white;
-}
-
-.primarycoursenav{
-background-color: gray;
-border-radius: 10px 86px;
-color: white;
-font-family: 'Slabo 27px', serif;  
-opacity: 0.9;
-position: fixed;
-left: 6%;
-top: 13%;
-width:17%;
-text-align:center;
--webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
-.primarycoursenav li ul {
-background:maroon;
-padding: 0;
-position: absolute;
-top: 7.2vh;
-left: 4vw;
-width: 73%;
--webkit-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
-display: none;
-opacity: 0;
-visibility: hidden;
--webkit-transiton: opacity 0.2s;
--moz-transition: opacity 0.2s;
--ms-transition: opacity 0.2s;
--o-transition: opacity 0.2s;
--transition: opacity 0.2s;
-}
-.primarycoursenav li ul li {
-  display: block; 
-  color: #fff;
-  text-align:center;
-  text-shadow: 0 -1px 0 #000;
-}
-
-.primarycoursenav li ul li h4{
-color:white;
-opacity: 1;
-text-align:center;
-}
-
-.primarycoursenav li ul li:hover { 
-background: #maroon;
-opacity: 1;
-
-}
-.primarycoursenav li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-.pcnav {
- border-radius: 10px 86px;
- display: inline-block;
- height:5%;
- right:8%;
- width:95%;
- position: relative;
- cursor: pointer;
- -webkit-transition: all 0.2s;
- -moz-transition: all 0.2s;
- -ms-transition: all 0.2s;
- -o-transition: all 0.2s;
- transition: all 0.2s;
- z-index: 10;
-}
-
-.pcnav:hover {
-background: maroon;
-opacity: 1;
--webkit-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
-}
-
-.primarynavmenu{
-background-color: gray;
-border-radius: 10px 86px;
-font-family: 'Slabo 27px', serif;
-margin:0;
-display:flex;
-opacity: 0.75;
-position:fixed;
-align-items: center;
-left:30%;
-list-style-type: none;
-top:6%;
-width: 65%;
--webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
-.pnav h4{
-color: white;
-}
-
-.pnav {
- border-radius: 10px 86px;
- display: inline-block;
- position: relative;
- padding: 0px 20px 0px 20px;
- cursor: pointer;
- -webkit-transition: all 0.2s;
- -moz-transition: all 0.2s;
- -ms-transition: all 0.2s;
- -o-transition: all 0.2s;
- transition: all 0.2s;
- z-index: 10;
-}
-
-.pnav:hover {
-background: maroon;
-opacity: 1;
--webkit-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
--moz-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
-box-shadow: 5px -4px 10px 2px rgba(0,0,0,0.75);
-}
-
-.primarynavmenu li ul {
-  background:maroon;
-  padding: 0;
-  position: absolute;
-  top: 7.2vh;
-  left: 4vw;
-  width: 8.5vw;
--webkit-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
-box-shadow: 2px 6px 10px 1px rgba(0,0,0,0.75);
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
-}
-.primarynavmenu li ul li {
-  display: block; 
-  color: #fff;
-  text-align:center;
-  text-shadow: 0 -1px 0 #000;
-}
-
-.primarynavmenu li ul li h4{
-color:white;
-opacity: 1;
-}
-
-.primarynavmenu li ul li:hover { 
-background: #8C001A;
-opacity: 1;
-
-}
-.primarynavmenu li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-.courses{
-text-align:center;
-width: 15%;
-}
-/*End of Navigation Bar CSS*/
+#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.crismanphoto.com/media/original/cc_soccer_023.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
 
-/*Course Description Banner CSS*/
-.graybee{
-position: absolute;
-top:15.7%;
-left:92%;
-width:4%;
-z-index:20;
-}
-.banner{
-background: maroon;
-border-radius: 3px 3px 55px 55px;
-display:none;
-height:12%;
-width:17%;
-left:78%;
-opacity:0.8;
-position: absolute;
-top:11.5%;
-z-index: 1;
-}
-.graybee:hover + .banner{
-display:block;
-}
-p.banner{
-color: white;
-font-family: 'Slabo 27px', serif; 
-}
-.maroon{
-color: black;
-}
-.gray{
-color:darkgray;
-}
+/* Extras */
+/**************************/
+#parallax-world-of-ugg .line-break {border-bottom:1px solid black; width: 150px; margin:0 auto;}
 
-/*End of Course Description Banner CSS*/
-
-/*Honeycomb Effect CSS*/
-.hexagon {
-  position: relative;
-  width: 29px; 
-  height: 16.74px;
-  background-color: gray;
-  margin: 8.37px 0;
-  border-left: solid 1px #333333;
-  border-right: solid 1px #333333;
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
 }
-
-.hexagon:before,
-.hexagon:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  width: 20.51px;
-  height: 20.51px;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background-color: inherit;
-  left: 3.2470px;
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
 }
-
-.hexagon:before {
-  top: -10.2530px;
-  border-top: solid 1.4142px #333333;
-  border-right: solid 1.4142px #333333;
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
 }
-
-.hexagon:after {
-  bottom: -10.2530px;
-  border-bottom: solid 1.4142px #333333;
-  border-left: solid 1.4142px #333333;
-}
-.hexagon:hover{
-background-color:maroon;
-}
-
-/*---------------------------------*/
-#hex1{
-opacity:0.95;
-top:20%;
-left:92%;
-}
-#hex2{
-opacity:0.95;
-top:19.9%;
-left:91%;
-}
-#hex3{
-opacity:0.95;
-top:16.9%;
-left:93.1%;
-}
-#hex4{
-opacity:0.95;
-top:14%;
-left:95.3%;
-}
-#hex5{
-opacity:0.95;
-top:11.1%;
-left:97.5%;
-}
-#hex6{
-opacity:0.95;
-top:5.4%;
-left:94.2%;
-}
-#hex7{
-opacity:0.95;
-top:2.5%;
-left:96.4%
-}
-#hex8{
-opacity:0.95;
-top:5.3%;
-left:92%;
-}
-#hex9{
-opacity:0.95;
-top:2.2%;
-left:94.2%;
-}
-#hex10{
-opacity:0.95;
-top:-9.2%;
-left:93.1%;
-}
-#hex11{
-opacity:0.95;
-top:-12%;
-left:95.3%;
-}
-#hex12{
-opacity:0.95;
-top:-14.9%;
-left:97.5%;
-}
-#hex13{
-opacity:0.95;
-top:-20.7%;
-left:96.45%;
-}
-#hex14{
-opacity:0.95;
-top:-12.4%;
-left:89.9%;
-}
-/*End of Honeycomb Effect CSS*/
-
-/*Help Panel CSS*/
-
-.infoscreen{
-background-color:#51aae8;
-background-size:cover;
-height: 100vh;
-overflow: hidden;
-width: 100%;
-}
-
-.classparagraph{
-
-}
-
-/*End of Help Panel CSS*/
-
-.homescreen {
- background-attachment: fixed;
- background-image: url("../images/home.JPG");
- background-position:top center;
- background-size: cover;
- height: 100vh;
- width: 100%;
- overflow: hidden;
- -webkit-animation: fadein ease-in-out 2s; /* Safari and Chrome */
- -moz-animation: fadein ease-in-out 2s; /* Firefox */
- -ms-animation: fadein  ease-in-out 2s; /* Internet Explorer */
- -o-animation: fadein ease-in-out 2s; /* Opera */
- animation: fadein ease-in-out 2s;
-}
-
-@keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-/* Firefox */
-@-moz-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-/* Safari and Chrome */
-@-webkit-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-/* Internet Explorer */
-@-ms-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-/* Opera */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
