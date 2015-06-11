@@ -81,12 +81,23 @@ color:white;
 #parallax-world-of-ugg p {
 font-family:'Source Sans Pro', sans-serif; 
 font-weight:400; 
-font-size:14px; line-height:24px;}
-.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+font-size:18px; 
+line-height:24px;
+}
 
-.sc {color: #3b8595;}
-.ny {color: #3d3c3a;}
-.atw {color: #c48660;}
+.first-character {
+font-weight:400;
+float: left; 
+font-size: 84px; 
+line-height: 64px; 
+padding-top: 4px; 
+padding-right: 8px; 
+padding-left: 3px;
+font-family: 'Source Sans Pro', sans-serif;}
+
+.sc {color: #830300;}
+.ny {color: #1E5735;}
+.atw {color: #EBE8CC;}
 
 /* Section - Title */
 /**************************/
@@ -256,21 +267,6 @@ background-position: bottom left;
 
 /* Media Queries */
 /**************************/
-@media screen and (max-width:1440px) and (min-width:960px) {
-#parallax-world-of-ugg p {
-font-size:18px; 
-line-height:24px;
-}
-.first-character {
-font-weight:400; 
-float: left; 
-font-size: 84px;
-line-height: 64px; 
-padding-top: 4px; 
-padding-right: 8px; 
-padding-left: 3px; 
-font-family: 'Source Sans Pro', sans-serif;}
-}
 
 @media screen and (max-width: 959px) and (min-width: 768px) {
   #parallax-world-of-ugg .block {padding: 40px; width:620px;}
