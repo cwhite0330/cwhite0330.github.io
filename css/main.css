@@ -77,26 +77,43 @@ opacity:.8;
 #parallax-world-of-ugg .title img {height: 15%; width:25%;}
 
 #nav{
+height: 6vh;
+width: 13vw;
+top: 19vh;
 margin: 0;
-padding: 0:
-list-style:none;
-overflow: hidden;
+padding: 0;
+list-style: none;
+position: absolute;
+background-image: url(../images/menuburger.png);
+background-repeat: no-repeat;
+z-index: 10;
+}
+#menu{
+display: block;
+height: 5vh;
+width:4vw;
 }
 
-#nav:hover img{
+#menu:hover #navmenu{
+display: block;
+}
+
+#nav:hover{
 background-image: url(../images/menuburgerhover.png);
 }
 
 #navmenu{
 background: gray;
 opacity: 0.9;
-display: none;
+width: 10vw;
+position: absolute;
+top:5vh;
+list-style-type: none;
+text-align: left;
+display:none;
 cursor: pointer;
 }
 
-#menu:hover #navmenu{
-display: block;
-}
 #navmenu li a{
 display: block;
 padding: 10px;
@@ -107,6 +124,13 @@ color: white;
 #navmenu li a:hover{
 color: maroon;
 }
+
+#graybeelogo{
+position: absolute;
+top: 18vh;
+right:5vw;
+}
+
 /* Section - Block */
 /**************************/
 #parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
