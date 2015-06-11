@@ -47,7 +47,20 @@ IX.      Footer
 /* Typography */
 /**************************/
 #parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8;}
+
+#parallax-world-of-ugg h2 {
+font-family:'Oswald', sans-serif; 
+font-size:70px; 
+letter-spacing:10px; 
+text-align:center; 
+color:white; 
+font-weight:400; 
+text-transform:uppercase;
+text-shadow: 0px 2px 1px rgba(150, 150, 150, 0.69);
+z-index:10; 
+opacity:.8;
+}
+
 #parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
 #parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
 .first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
@@ -59,7 +72,9 @@ IX.      Footer
 /* Section - Title */
 /**************************/
 #parallax-world-of-ugg .title {background: skyblue; padding: 60px; margin:0 auto; text-align:center;}
-#parallax-world-of-ugg .title h1 {font-size:35px; letter-spacing:8px;}
+#parallax-world-of-ugg .title h1 { color: white; font-size:35px; letter-spacing:8px;}
+#parallax-world-of-ugg .title h3 { color: white; letter-spacing:5px;}
+#parallax-world-of-ugg .title img {height: 15%; width:25%;}
 
 /* Section - Block */
 /**************************/
@@ -69,7 +84,22 @@ IX.      Footer
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.thestar.com/content/dam/thestar/sports/olympics/2012/08/07/london_2012_controversial_soccer_referee_christina_pederson_an_experienced_official/christinapedersen.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-one {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(
+"../images/classroom3.jpg");
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: bottom center;
+}
+
 #parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://sonconslow.org/wp-content/uploads/2010/08/soccer.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://news.byu.edu/releases/archive14/Jun/refs/Unknown-1.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://media.nj.com/southjerseyhssports/photo/girls-soccer-roundup-photo-lmn-3200-9037787jpg-a65fde8e9554fd62.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
