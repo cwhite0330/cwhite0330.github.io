@@ -100,9 +100,50 @@ background-repeat: no-repeat;
 background-position: bottom center;
 }
 
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://sonconslow.org/wp-content/uploads/2010/08/soccer.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://news.byu.edu/releases/archive14/Jun/refs/Unknown-1.jpeg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://media.nj.com/southjerseyhssports/photo/girls-soccer-roundup-photo-lmn-3200-9037787jpg-a65fde8e9554fd62.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url("../images/ourprocess.jpg"); 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: bottom left;
+}
+
+#parallax-world-of-ugg .parallax-three {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url("../images/extrahelp.png"); 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center center;
+}
+
+#parallax-world-of-ugg .parallax-four {
+padding-top: 200px; 
+padding-bottom: 200px;
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(http://media.nj.com/southjerseyhssports/photo/girls-soccer-roundup-photo-lmn-3200-9037787jpg-a65fde8e9554fd62.jpg); 
+background-attachment: fixed;
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+}
 
 #parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://static.wixstatic.com/media/847c88_c3ce55d312a42b0d1eaea5c9903d1a4f.jpg_1024); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
 
