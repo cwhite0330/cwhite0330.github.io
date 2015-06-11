@@ -76,6 +76,37 @@ opacity:.8;
 #parallax-world-of-ugg .title h3 { color: white; letter-spacing:5px;}
 #parallax-world-of-ugg .title img {height: 15%; width:25%;}
 
+#nav{
+margin: 0;
+padding: 0:
+list-style:none;
+overflow: hidden;
+}
+
+#nav:hover img{
+background-image: url(../images/menuburgerhover.png);
+}
+
+#navmenu{
+background: gray;
+opacity: 0.9;
+display: none;
+cursor: pointer;
+}
+
+#menu:hover #navmenu{
+display: block;
+}
+#navmenu li a{
+display: block;
+padding: 10px;
+text-decoration: none;
+color: white;
+}
+
+#navmenu li a:hover{
+color: maroon;
+}
 /* Section - Block */
 /**************************/
 #parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
@@ -106,7 +137,7 @@ padding-bottom: 200px;
 overflow: hidden; 
 position: relative; 
 width: 100%; 
-background-image: url("../images/ourprocess.jpg"); 
+background-image: url("../images/walkway.png"); 
 background-attachment: fixed; 
 background-size: cover; 
 -moz-background-size: cover; 
@@ -136,7 +167,7 @@ padding-bottom: 200px;
 overflow: hidden; 
 position: relative; 
 width: 100%; 
-background-image: url(http://media.nj.com/southjerseyhssports/photo/girls-soccer-roundup-photo-lmn-3200-9037787jpg-a65fde8e9554fd62.jpg); 
+background-image: url(../images/home.JPG); 
 background-attachment: fixed;
 background-size: cover;
 -moz-background-size: cover;
@@ -145,9 +176,35 @@ background-repeat: no-repeat;
 background-position: top center;
 }
 
-#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://static.wixstatic.com/media/847c88_c3ce55d312a42b0d1eaea5c9903d1a4f.jpg_1024); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-five {
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url(../images/schoolsupplies.jpg);
+background-attachment: fixed;
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-repeat: no-repeat; 
+background-position: top center;
+}
 
-#parallax-world-of-ugg .parallax-six {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://www.crismanphoto.com/media/original/cc_soccer_023.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-six {
+padding-top: 200px;
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%;
+background-image: url(../images/ourprocess.jpg);
+background-attachment: fixed;
+background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom left;
+}
 
 
 /* Extras */
