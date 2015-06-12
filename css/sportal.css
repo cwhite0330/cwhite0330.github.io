@@ -1,0 +1,509 @@
+/*
+   WDDS    WDD WDDSWDD   DSWDDSW    DDSWDDSW 
+   DSW    DDSW DSWDDSWD  WDDSWDDS  DSWDDSWDD                                  
+   DSW     DDS DSW   WDD WDD   DSW DSWDDSW   
+   SWDDSWD SWD SWDD  DDS DDSW  SWD  WDDSWDDS  
+   DDSWDDSWDD  DDS   SWD SWD   DDS      DSWD  
+   SWDDSWDDSW  SWD  WDDS DDS  DSWD SWDDSWDDS  
+  WDDSW DSWDD WDDSWDDSW DSWDDSWDD WDDSWDDSW   
+  DSWD   DDSW DSWDDSWD  WDDSWDDS  DSWDDSWD    
+
+Designed by Craig Anthony White II
+Start Date: June 11th, 2015 | Finish Date: ??? 
+--*/
+
+/* WDDS Custom Stylesheet */
+
+/* WDDS Site Outline */
+
+/* 
+------- Table of Contents ------
+*/
+
+/* ----------- General CSS ---------- */
+#parallax-world-of-ugg .title {background: gray; padding: 60px; margin:0 auto; text-align:center;}
+
+#sportaltitle{
+height: 55vh;
+background: gray;
+}
+
+#sbplogo{
+background-image: url(../images/sbpschoollogomedium.png);
+background-repeat: no-repeat;
+background-position:center;
+top:-4vh;
+height: 75px;
+z-index: 200;
+
+}
+#title h2{
+position: absolute;
+left:34%;
+opacity: 0.95;
+}
+
+#title h3{
+position: absolute;
+left:37%;
+top: 45%;
+z-index: 200;
+}
+#nav2{
+height: 9vh;
+width: 8vw;
+top: 48vh;
+margin: 0;
+padding: 0;
+list-style: none;
+position: absolute;
+background-image: url(../images/menuburger.png);
+background-repeat: no-repeat;
+z-index: 10;
+}
+#menu2{
+display: block;
+height: 9vh;
+width:6vw;
+}
+
+#menu2:hover #navmenu{
+display: block;
+}
+
+#nav2:hover{
+background-image: url(../images/menuburgerhover.png);
+}
+/*------ Hex Pattern Effect----*/
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  background: white;
+}
+
+.socket {
+position: absolute;
+top: 25vh;
+width: 200px;
+height: 200px;
+left: 40%;
+z-index: 2;
+}
+
+.hex-brick {
+  background: #830300;
+  width: 30px;
+  height: 17px;
+  position: absolute;
+  top: 5px;
+  -webkit-animation-name: fade;
+  -moz-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+}
+.hex-brick.h2 {
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.hex-brick.h3 {
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.gel {
+  height: 30px;
+  width: 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.center-gel {
+  margin-left: -15px;
+  margin-top: -15px;
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+}
+
+.c1 {
+  margin-left: -47px;
+  margin-top: -15px;
+}
+
+.c2 {
+  margin-left: -31px;
+  margin-top: -43px;
+}
+
+.c3 {
+  margin-left: 1px;
+  margin-top: -43px;
+}
+
+.c4 {
+  margin-left: 17px;
+  margin-top: -15px;
+}
+
+.c5 {
+  margin-left: -31px;
+  margin-top: 13px;
+}
+
+.c6 {
+  margin-left: 1px;
+  margin-top: 13px;
+}
+
+.c7 {
+  margin-left: -63px;
+  margin-top: -43px;
+}
+
+.c8 {
+  margin-left: 33px;
+  margin-top: -43px;
+}
+
+.c9 {
+  margin-left: -15px;
+  margin-top: 41px;
+}
+
+.c10 {
+  margin-left: -63px;
+  margin-top: 13px;
+}
+
+.c11 {
+  margin-left: 33px;
+  margin-top: 13px;
+}
+
+.c12 {
+  margin-left: -15px;
+  margin-top: -71px;
+}
+
+.c13 {
+  margin-left: -47px;
+  margin-top: -71px;
+}
+
+.c14 {
+  margin-left: 17px;
+  margin-top: -71px;
+}
+
+.c15 {
+  margin-left: -47px;
+  margin-top: 41px;
+}
+
+.c16 {
+  margin-left: 17px;
+  margin-top: 41px;
+}
+
+.c17 {
+  margin-left: -79px;
+  margin-top: -15px;
+}
+
+.c18 {
+  margin-left: 49px;
+  margin-top: -15px;
+}
+
+.c19 {
+  margin-left: -63px;
+  margin-top: -99px;
+}
+
+.c20 {
+  margin-left: 33px;
+  margin-top: -99px;
+}
+
+.c21 {
+  margin-left: 1px;
+  margin-top: -99px;
+}
+
+.c22 {
+  margin-left: -31px;
+  margin-top: -99px;
+}
+
+.c23 {
+  margin-left: -63px;
+  margin-top: 69px;
+}
+
+.c24 {
+  margin-left: 33px;
+  margin-top: 69px;
+}
+
+.c25 {
+  margin-left: 1px;
+  margin-top: 69px;
+}
+
+.c26 {
+  margin-left: -31px;
+  margin-top: 69px;
+}
+
+.c27 {
+  margin-left: -79px;
+  margin-top: -15px;
+}
+
+.c28 {
+  margin-left: -95px;
+  margin-top: -43px;
+}
+
+.c29 {
+  margin-left: -95px;
+  margin-top: 13px;
+}
+
+.c30 {
+  margin-left: 49px;
+  margin-top: 41px;
+}
+
+.c31 {
+  margin-left: -79px;
+  margin-top: -71px;
+}
+
+.c32 {
+  margin-left: -111px;
+  margin-top: -15px;
+}
+
+.c33 {
+  margin-left: 65px;
+  margin-top: -43px;
+}
+
+.c34 {
+  margin-left: 65px;
+  margin-top: 13px;
+}
+
+.c35 {
+  margin-left: -79px;
+  margin-top: 41px;
+}
+
+.c36 {
+  margin-left: 49px;
+  margin-top: -71px;
+}
+
+.c37 {
+  margin-left: 81px;
+  margin-top: -15px;
+}
+
+.r1 {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.r2 {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.r3 {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+.r1 > .hex-brick {
+  -webkit-animation-name: fade;
+  -moz-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.r2 > .hex-brick {
+  -webkit-animation-name: fade;
+  -moz-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.r3 > .hex-brick {
+  -webkit-animation-name: fade;
+  -moz-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 7;
+  -moz-animation-iteration-count: 7;
+  animation-iteration-count: 7;
+  -webkit-animation-delay: 0.6s;
+  -moz-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.01);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(0.01);
+  }
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.01);
+    -moz-transform: scale(0.01);
+    -ms-transform: scale(0.01);
+    -o-transform: scale(0.01);
+    transform: scale(0.01);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    background: #abf8ff;
+  }
+  50% {
+    background: #90bbbf;
+  }
+  100% {
+    background: #abf8ff;
+  }
+}
+@-moz-keyframes fade {
+  0% {
+    background: #830300;
+  }
+  50% {
+    background: #830300;
+  }
+  100% {
+    background: #830300;
+  }
+}
+@keyframes fade {
+  0% {
+    background: #83000;
+  }
+  50% {
+    background: #830300;
+  }
+  100% {
+    background: #830300;
+  }
+}
+
+/*------ End of Hex Pattern Effect----*/

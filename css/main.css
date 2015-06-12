@@ -125,10 +125,9 @@ font-family: 'Source Sans Pro', sans-serif;}
 #parallax-world-of-ugg .title {background: skyblue; padding: 60px; margin:0 auto; text-align:center;}
 #parallax-world-of-ugg .title h1 { color: white; font-size:35px; letter-spacing:8px;}
 #parallax-world-of-ugg .title h3 { color: white; letter-spacing:5px;}
-#parallax-world-of-ugg .title img {height: 15%; width:25%;}
 
 #nav{
-height: 6vh;
+height: 9vh;
 width: 13vw;
 top: 19vh;
 margin: 0;
