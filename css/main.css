@@ -281,6 +281,46 @@ background-repeat: no-repeat;
 background-position: bottom left;
 }
 
+#footernav{
+background: skyblue;
+float: left;
+display:inline-block;
+font-family:'Source Sans Pro', sans-serif; 
+font-size:12px;
+font-weight:200;
+letter-spacing:5px;
+text-transform: uppercase; 
+color:white;
+width:100%;
+}
+
+.main{
+margin: auto 3.5%;
+}
+
+#col{
+align-content: center;
+float: left;
+}
+
+#col ul{
+list-style-type: none;
+}
+
+#col ul li a{
+text-decoration: none;
+color: white;
+}
+
+#copyptag{
+margin: 10px 0px;
+padding: 200px 0px 0px 0px;
+}
+
+#copyptag a{
+color: white;
+text-decoration: none;
+}
 
 /* Extras */
 /**************************/
