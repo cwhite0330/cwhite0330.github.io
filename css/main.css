@@ -295,7 +295,8 @@ width:100%;
 }
 
 .main{
-margin: auto 1.5%;
+margin: auto;
+padding: 0px 15px;
 }
 
 #col{
