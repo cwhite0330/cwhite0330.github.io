@@ -21,38 +21,49 @@ Start Date: June 11th, 2015 | Finish Date: ???
 */
 
 /* ----------- General CSS ---------- */
-#parallax-world-of-ugg .title {background: gray; padding: 60px; margin:0 auto; text-align:center;}
+#parallax-world-of-ugg .title {
+position: relative;
+background: gray; padding: 60px; margin:0 auto; text-align:center;}
 
 #sportaltitle{
 height: 55vh;
 background: gray;
+position: relative;
 }
 
 #sbplogo{
 background-image: url(../images/sbpschoollogomedium.png);
 background-repeat: no-repeat;
 background-position:center;
-top:-4vh;
-height: 75px;
-z-index: 200;
-
-}
-#title h2{
+width: 100%;
+height: 100%;
 position: absolute;
-left:34%;
+top: 0vh; left: 0; bottom: 0; right: 0;
+}
+
+#title h2{
+width: 100%;
+height: 100%;
+overflow: auto;
+margin: auto;
+position: absolute;
+top: 38vh; left: 0; bottom: 0; right: 0;
 opacity: 0.95;
 }
 
 #title h3{
+width: 100%;
+height: 10%;
+margin: auto;
 position: absolute;
-left:37%;
-top: 45%;
+top: 54vh; left: 0; bottom: 0; right: 0;
 z-index: 200;
 }
+
 #nav2{
 height: 9vh;
 width: 8vw;
-top: 48vh;
+top: 46vh;
 margin: 0;
 padding: 0;
 list-style: none;
@@ -73,6 +84,7 @@ display: block;
 
 #nav2:hover{
 background-image: url(../images/menuburgerhover.png);
+opacity:0.95;
 }
 /*------ Hex Pattern Effect----*/
 html {
@@ -88,11 +100,12 @@ body {
 }
 
 .socket {
-position: absolute;
-top: 25vh;
-width: 200px;
-height: 200px;
-left: 40%;
+  width: 100%;
+  height: 200%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 40vh; left: 0; bottom: 0; right: 0;
 z-index: 2;
 }
 
