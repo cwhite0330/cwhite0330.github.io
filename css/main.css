@@ -141,7 +141,7 @@ z-index: 10;
 }
 #menu{
 display: block;
-height: 5vh;
+height: 7vh;
 width:4vw;
 }
 
@@ -156,9 +156,9 @@ background-image: url(../images/menuburgerhover.png);
 #navmenu{
 background: gray;
 opacity: 0.9;
-width: 10vw;
+width: 17vw;
 position: absolute;
-top:5vh;
+top:7vh;
 list-style-type: none;
 text-align: left;
 display:none;
@@ -313,6 +313,11 @@ list-style-type: none;
 #col ul li a{
 text-decoration: none;
 color: white;
+}
+
+#col ul li a:hover{
+color: maroon;
+font-weight: 300;
 }
 
 #copyptag{
