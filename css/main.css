@@ -286,22 +286,24 @@ background: skyblue;
 float: left;
 display:inline-block;
 font-family:'Source Sans Pro', sans-serif; 
-font-size:12px;
+font-size:14px;
 font-weight:200;
-letter-spacing:5px;
+letter-spacing:4px;
 text-transform: uppercase; 
 color:white;
 width:100%;
 }
 
 .main{
-margin: auto;
+margin: 10px auto;
 padding: 0px;
+border: 1px solid white;
 }
 
 #col{
 align-content: center;
 float: left;
+padding: 0px 9px;    
 }
 
 #col ul{
@@ -314,8 +316,11 @@ color: white;
 }
 
 #copyptag{
-margin: 10px 0px;
-padding: 200px 0px 0px 0px;
+position: absolute;
+margin: auto;
+height:7vh;
+width:97vw;
+
 }
 
 #copyptag a{
