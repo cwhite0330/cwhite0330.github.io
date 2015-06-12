@@ -316,10 +316,17 @@ color: white;
 }
 
 #copyptag{
-position: absolute;
+background: skyblue;
+display: inline-block;
+font-family:'Source Sans Pro', sans-serif; 
+font-size:14px;
+font-weight:200;
+letter-spacing:4px;
+text-transform: uppercase; 
+color:white;
+width:100%;
 margin: auto;
 height:7vh;
-width:97vw;
 
 }
 
