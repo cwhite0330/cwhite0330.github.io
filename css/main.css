@@ -150,11 +150,12 @@ display: block;
 
 #nav:hover{
 background-image: url(../images/menuburgerhover.png);
+opacity:1;
 }
 
 #navmenu{
 background: gray;
-opacity: 0.9;
+opacity: 0.95;
 width: 17vw;
 position: absolute;
 top:7vh;
