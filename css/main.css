@@ -127,16 +127,19 @@ font-family: 'Source Sans Pro', sans-serif;}
 #parallax-world-of-ugg .title h3 { color: white; letter-spacing:5px;}
 
 #nav{
-height: 9vh;
-width: 13vw;
-top: 19vh;
+height: 7vh;
+width: 4vw;
+top: 24.8vh;
 margin: 0;
 padding: 0;
+left: 0.5vw;
 list-style: none;
-position: absolute;
+position: fixed;
 background-image: url(../images/menuburger.png);
 background-repeat: no-repeat;
-z-index: 10;
+background-color: gray;
+background-position: center;
+    z-index: 10;
 }
 #menu{
 display: block;
