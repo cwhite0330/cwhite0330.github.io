@@ -543,7 +543,22 @@ padding-bottom: 200px;
 overflow: hidden; 
 position: relative; 
 width: 100%; 
-background-image: url(http://petersonlive.com/wp-content/uploads/2012/02/branch-brook-fall-2.jpg); 
+background-image: url("../images/fall.jpg"); 
+background-attachment: fixed; 
+background-size: cover; 
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+background-repeat: no-repeat; 
+background-position: center center;
+}
+
+#parallax-world-of-ugg .winter{
+padding-top: 200px; 
+padding-bottom: 200px; 
+overflow: hidden; 
+position: relative; 
+width: 100%; 
+background-image: url("../images/winter.png"); 
 background-attachment: fixed; 
 background-size: cover; 
 -moz-background-size: cover; 
