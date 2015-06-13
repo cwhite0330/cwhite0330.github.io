@@ -26,7 +26,7 @@ position: relative;
 background: gray; padding: 60px; margin:0 auto; text-align:center;}
 
 #sportaltitle{
-height: 55vh;
+height: 45vh;
 background: gray;
 position: relative;
 }
@@ -61,17 +61,21 @@ z-index: 200;
 }
 
 #nav2{
-height: 9vh;
-width: 8vw;
-top: 46vh;
+height: 7vh;
+width: 6vw;
+top: 35vh;
 margin: 0;
 padding: 0;
 list-style: none;
-position: absolute;
+position: fixed;
+background-color: gray;
 background-image: url(../images/menuburger.png);
 background-repeat: no-repeat;
+background-position: center;
+border-radius: 10px 10px 0px 0px;
 z-index: 10;
 }
+
 #menu2{
 display: block;
 height: 9vh;

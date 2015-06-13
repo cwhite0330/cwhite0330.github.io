@@ -129,18 +129,18 @@ font-family: 'Source Sans Pro', sans-serif;}
 
 #nav{
 height: 7vh;
-width: 4vw;
-top: 24.8vh;
+width: 6vw;
+top: 18vh;
 margin: 0;
 padding: 0;
-
 list-style: none;
 position: fixed;
+background-color: gray;
 background-image: url(../images/menuburger.png);
 background-repeat: no-repeat;
-background-color: gray;
 background-position: center;
-    z-index: 10;
+border-radius: 10px 10px 0px 0px;
+z-index: 10;
 }
 #menu{
 display: block;
