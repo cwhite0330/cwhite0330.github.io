@@ -594,6 +594,9 @@ background-size: cover;
 background-repeat: no-repeat; 
 background-position: center center;
 }
+#lesson-container a{
+   text-decoration:none;
+}
 
 .lesson-container {
   padding: 0;
@@ -609,9 +612,9 @@ background-position: center center;
 }
 
 .lessoncontainer {
-  background: #830300;
+  background: gray;
   opacity:0.9;
-  padding: 2px;
+  padding-top: 120px;
   width: 400px;
   height: 400px;
   margin-top: 10px;
@@ -624,6 +627,10 @@ background-position: center center;
   letter-spacing:5px;
   text-transform: uppercase; 
   align-content:center;
+}
+
+.lessoncontainer:hover{
+   background:#830300;
 }
 
 .lesson {
