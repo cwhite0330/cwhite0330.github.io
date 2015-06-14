@@ -650,11 +650,11 @@ background-position: center center;
     transition: opacity 500ms ease-in;
     pointer-events: none;
 }
-.lesson1:target {
+.lesson:target {
     opacity:1;
     pointer-events: auto;
 }
-.lesson1 > div {
+.lesson > div {
     color:white;
     width: 400px;
     position: relative;
