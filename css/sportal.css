@@ -594,7 +594,9 @@ background-size: cover;
 background-repeat: no-repeat; 
 background-position: center center;
 }
+
 #lesson-container a{
+   color:white;
    text-decoration:none;
 }
 
@@ -648,11 +650,11 @@ background-position: center center;
     transition: opacity 500ms ease-in;
     pointer-events: none;
 }
-.lesson:target {
+.lesson1:target {
     opacity:1;
     pointer-events: auto;
 }
-.lesson > div {
+.lesson1 > div {
     color:white;
     width: 400px;
     position: relative;
