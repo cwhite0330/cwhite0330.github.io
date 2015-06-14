@@ -603,7 +603,8 @@ background-position: center center;
 
 .lessoncontainer {
   background: #830300;
-  padding: 5px;
+  opacity:0.9;
+  padding: 50px;
   width: 400px;
   height: 400px;
   margin-top: 10px;
@@ -612,5 +613,7 @@ background-position: center center;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+  letter-spacing:5px;
+  text-transform: uppercase; 
   align-content:center;
 }
