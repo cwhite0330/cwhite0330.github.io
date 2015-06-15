@@ -646,7 +646,7 @@ background-position: center center;
     left: 0;
     background: rgba(0, 0, 0, 0.8);
     z-index: 99999;
-    opacity:0;
+    opacity:0.55;
     -webkit-transition: opacity 500ms ease-in;
     -moz-transition: opacity 500ms ease-in;
     transition: opacity 500ms ease-in;
