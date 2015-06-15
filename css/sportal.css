@@ -637,7 +637,7 @@ background-position: center center;
 }
 
 .lesson {
-    position: absolute;
+    position: fixed;
     overflow: scroll;
     font-family:'Oswald', sans-serif;
     top: 0;
