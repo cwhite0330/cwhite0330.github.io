@@ -166,16 +166,14 @@ height: auto;
 left: -.01vw;
 list-style-type: none;
 text-align: left;
-display:none;
+display:;
 flex-direction: column;
-margin: auto;
 cursor: pointer;
 }
 
 #navmenu li a{
-display:flex;
 margin: auto;
-line-height: 30px;
+line-height: normal;
 text-decoration: none;
 color: white;
 }
