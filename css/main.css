@@ -159,13 +159,11 @@ opacity:1;
 
 #navmenu{
 background: gray;
-opacity: 0.95;
-width: 17vw;
 position: absolute;
 top:7vh;
 list-style-type: none;
 text-align: left;
-display:none;
+display:;
 cursor: pointer;
 }
 

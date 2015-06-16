@@ -68,25 +68,28 @@ z-index: 200;
 }
 
 #nav2{
-height: 7vh;
-width: 6vw;
-top: 35vh;
+height:7%;
+width:7%;
+top: 3vh;
 margin: 0;
 padding: 0;
+left: 2vw;
 list-style: none;
+opacity:0.75;
 position: fixed;
 background-color: gray;
 background-image: url(../images/menuburger.png);
 background-repeat: no-repeat;
 background-position: center;
-border-radius: 10px 10px 0px 0px;
+border-radius: 0px 0px 0px 0px;
 z-index: 10;
 }
 
 #menu2{
 display: block;
-height: 9vh;
-width:6vw;
+height:100%;
+width:100%;
+    
 }
 
 #menu2:hover #navmenu{
