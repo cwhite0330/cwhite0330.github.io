@@ -149,7 +149,7 @@ width:4vw;
 }
 
 #menu:hover #navmenu{
-display: block;
+display:flex;
 }
 
 #nav:hover{
@@ -161,19 +161,23 @@ opacity:1;
 background: gray;
 position: absolute;
 top: 7vh;
-width: 200px;
-height: 320px;
+width: 240px;
+height: auto;
+left: -.01vw;
 list-style-type: none;
 text-align: left;
 display:none;
+flex-direction: column;
+margin: auto;
 cursor: pointer;
 }
 
 #navmenu li a{
-display: block;
-padding-top: 5%;
+display:flex;
+margin: auto;
+line-height: 30px;
 text-decoration: none;
-color: black;
+color: white;
 }
 
 #navmenu li a:hover{
