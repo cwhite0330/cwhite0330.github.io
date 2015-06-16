@@ -160,7 +160,9 @@ opacity:1;
 #navmenu{
 background: gray;
 position: absolute;
-top:7vh;
+top: 7vh;
+width: 200px;
+height: 320px;
 list-style-type: none;
 text-align: left;
 display:;
@@ -169,9 +171,9 @@ cursor: pointer;
 
 #navmenu li a{
 display: block;
-padding: 10px;
+padding-top: 5%;
 text-decoration: none;
-color: white;
+color: black;
 }
 
 #navmenu li a:hover{
