@@ -136,9 +136,10 @@ font-family: 'Source Sans Pro', sans-serif;
 #parallax-world-of-ugg .title {background: gray; padding: 60px; margin:0 auto; text-align:center; height: 15vh;}
 #parallax-world-of-ugg .title h2 {
 color: white; 
-letter-spacing:9px;
+letter-spacing:5px;
 position:absolute;
 width: 100%;
+    height:9%;
 left: 0;
 top: 12vh;
 margin: 0 auto;
