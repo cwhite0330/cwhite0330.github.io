@@ -115,7 +115,8 @@ line-height: 64px;
 padding-top: 4px; 
 padding-right: 8px; 
 padding-left: 3px;
-font-family: 'Source Sans Pro', sans-serif;}
+font-family: 'Source Sans Pro', sans-serif;
+}
 
 .sc {color: #830300;}
 .ny {color: #1E5735;}
@@ -128,24 +129,26 @@ font-family: 'Source Sans Pro', sans-serif;}
 #parallax-world-of-ugg .title h3 { color: white; letter-spacing:5px;}
 
 #nav{
-height: 7vh;
-width: 6vw;
-top: 18vh;
+height:7%;
+width:9%;
+top: 3vh;
 margin: 0;
 padding: 0;
+left: 3vw;
 list-style: none;
+opacity:0.75;
 position: fixed;
 background-color: gray;
 background-image: url(../images/menuburger.png);
 background-repeat: no-repeat;
 background-position: center;
-border-radius: 10px 10px 0px 0px;
+border-radius: 0px 0px 0px 0px;
 z-index: 10;
 }
+
 #menu{
 display: block;
 height: 7vh;
-width:4vw;
 }
 
 #menu:hover #navmenu{
@@ -184,7 +187,7 @@ color: maroon;
 
 #graybeelogo{
 position: absolute;
-top: 18vh;
+top: 3vh;
 right:5vw;
 }
 
