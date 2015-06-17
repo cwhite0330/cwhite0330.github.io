@@ -148,9 +148,10 @@ margin: 0 auto;
 font-size:50px;
 }
 
-#parallax-world-of-ugg .title h3 {
+#parallax-world-of-ugg .maintitle{
 color: white;
 letter-spacing:5px;
+position: absolute;
 }
 .maintitle{
 position: absolute;
