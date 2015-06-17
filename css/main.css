@@ -172,7 +172,7 @@ text-align: left;
 display:none;
 flex-direction: column;
 cursor: pointer;
-z-index: 300;
+z-index: 800;
 }
 
 #navmenu li a{
