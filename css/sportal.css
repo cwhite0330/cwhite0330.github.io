@@ -33,7 +33,7 @@ position: relative;
 background: gray; padding: 60px; margin:0 auto; text-align:center;}
 
 #sportaltitle{
-height: 45vh;
+height: 54vh;
 background: gray;
 position: relative;
 }
@@ -54,7 +54,7 @@ height: 100%;
 overflow: auto;
 margin: auto;
 position: absolute;
-top: 36vh; left: 0; bottom: 0; right: 0;
+top: 43vh; left: 0; bottom: 0; right: 0;
 opacity: 0.95;
 }
 
@@ -63,7 +63,7 @@ width: 100%;
 height: 10%;
 margin: auto;
 position: absolute;
-top: 50vh; left: 0; bottom: 0; right: 0;
+top: 58vh; left: 0; bottom: 0; right: 0;
 z-index: 100;
 }
 
@@ -118,7 +118,7 @@ body {
   overflow: auto;
   margin: auto;
   position: absolute;
-  top: 40vh; left: 0; bottom: 0; right: 0;
+  top: 44vh; left: 0; bottom: 0; right: 0;
 z-index: 2;
 }
 
