@@ -172,6 +172,7 @@ text-align: left;
 display:none;
 flex-direction: column;
 cursor: pointer;
+z-index: 300;
 }
 
 #navmenu li a{

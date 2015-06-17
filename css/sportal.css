@@ -64,7 +64,7 @@ height: 10%;
 margin: auto;
 position: absolute;
 top: 50vh; left: 0; bottom: 0; right: 0;
-z-index: 200;
+z-index: 100;
 }
 
 #nav2{
