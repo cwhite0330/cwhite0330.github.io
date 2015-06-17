@@ -134,7 +134,7 @@ font-family: 'Source Sans Pro', sans-serif;
 /* Section - Title */
 /**************************/
 #parallax-world-of-ugg .title {background: gray; padding: 60px; margin:0 auto; text-align:center; height: 15vh;}
-#parallax-world-of-ugg .title h1 {
+#parallax-world-of-ugg .title h2 {
 color: white; 
 font-size:35px;
 letter-spacing:9px;
