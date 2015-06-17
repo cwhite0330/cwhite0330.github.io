@@ -140,23 +140,20 @@ letter-spacing:9px;
 position:absolute;
 width: 100%;
 left: 0;
-top: 24vh;
+top: 12vh;
 margin: 0 auto;
-}
-
-.main-big-title{
-font-size:50px;
 }
 
 #parallax-world-of-ugg .title h3 {
 color: white;
 letter-spacing:5px;
 }
+
 .maintitle{
 position: absolute;
 width: 100%;
 left: 0;
-top: 23vh;
+top: 22vh;
 }
 #nav{
 height:7%;
@@ -403,4 +400,5 @@ text-decoration: none;
 }
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+    #parallax-world-of-ugg h3 { top: 50vh; }
 }

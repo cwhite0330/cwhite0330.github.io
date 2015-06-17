@@ -710,3 +710,12 @@ list-style-type: none;
 .close:hover {
     background: #830300;
 }
+
+
+
+/* Media Queries */
+/**************************/
+
+@media screen and (max-width: 479px) {
+    #parallax-world-of-ugg h3 { top: 53vh; }
+}
