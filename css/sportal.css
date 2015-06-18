@@ -638,8 +638,8 @@ background-position: center center;
 .lessoncontainer {
   background: gray;
   opacity:0.9;
-  width: 250px;
-  height: 220px;
+  width: 360px;
+  height: 280px;
   margin-top: 5px;
   margin-bottom: 5px;
   color: white;
@@ -654,7 +654,7 @@ list-style-type: none;
     font-size: 100%;
     display:inherit;
     color:white;
-    padding-top:100px;
+    padding-top:120px;
    text-decoration:none;
 }
 
