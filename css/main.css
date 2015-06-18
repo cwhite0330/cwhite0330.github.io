@@ -140,17 +140,16 @@ letter-spacing:5px;
 position:absolute;
 width: 100%;
 left: 0;
+margin: 0 auto;
+}
 
-
-    margin: 0 auto;
+.main-big-title{
+top: 12vh;
 }
 
 #parallax-world-of-ugg .title h3 {
 color: white;
 letter-spacing:5px;
-}
-
-.maintitle{
 position: absolute;
 width: 100%;
 left: 0;
