@@ -655,6 +655,11 @@ ul.templatemo-project-gallery  li  a img:hover {
 	margin-left: -12px;
 }
 
+#google_classroom_codes{
+    font-size: 13px;
+    text-align: center;
+}
+
 @media (min-width:991px) and (max-width:1200px) {
     .templatemo-project-box, .project-overlay {
         height:170px;
@@ -758,6 +763,9 @@ ul.templatemo-project-gallery  li  a img:hover {
 	 .team_hr {
 		width: 30%;
 	}
+    
+    #google_classroom_codes{
+    }
 }
 
 @media (min-width:585px) and ( max-width: 683px) {
