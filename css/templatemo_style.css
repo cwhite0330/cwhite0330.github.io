@@ -254,7 +254,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 
 .nav > li > a {
-    color: #929292;
+    color: #ffffff;
+    font-weight: 400;
 }
 .navbar-default {
     background: transparent;
@@ -384,7 +385,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 }
 
 #equivalentfractions{
-    background: url("http://www.the-girl-who-ate-everything.com/wp-content/uploads/blogger/-Nr0hmb_4oAE/TrdN8PWhz3I/AAAAAAAAHbk/4-oagoHtGbI/s1600/pumpkin-waffles-syrup.JPG");
+    background: url(../images/equivalentfractions.JPG);
     background-repeat: no-repeat;
     background-size: cover;
 }
