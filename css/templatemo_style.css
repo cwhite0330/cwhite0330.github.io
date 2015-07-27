@@ -62,11 +62,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-top-menu .navbar-toggle {
+    background: #800000;
     margin-top: 38px;
 }
 
 .templatemo-top-menu .navbar-toggle:hover, .templatemo-top-menu .navbar-toggle:focus  {
-    background: #800000;
+    background: #393939;
 }
 
 .templatemo-top-menu .navbar-brand {
@@ -607,25 +608,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 ul.templatemo-project-gallery  li  a img:hover {
     border: 3px solid #ff7600;
-}
-
-.templatemo-gallery-category a {
-	color:#333333; 
-}
-
-.templatemo-gallery-category a.active {
-	color:#e67e22; 
-	text-decoration:none;
-}
-
-.templatemo-gallery-category a:focus {
-	color:#e67e22;
-	text-decoration:none;	
-}
-
-.templatemo-gallery-category a:hover {
-	color:#e67e22; 
-	text-decoration:none;
 }
 
 .link_orange:hover {
