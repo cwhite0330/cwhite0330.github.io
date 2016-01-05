@@ -302,7 +302,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 .team_hr {
     border: 1px solid #fff; 
-    width: 37.5%; 
+    width: 30%; 
     float: left;
 }
 
@@ -313,6 +313,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 .team_hr_right {
     margin-left: 15px;
+}
+
+.homelink{
+    color: #000;
+    width: 30%;
+    float: left;
 }
 
 .hr_gray {
