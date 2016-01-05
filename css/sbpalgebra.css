@@ -317,9 +317,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 .homelink{
     color: #000;
-    width: 30%;
-    float: left;
+    margin: auto;
+    padding-bottom: 15px;
+    width: 15%;
 }
+
+.homelink a {
+    color: white;
+    text-align: center;
+}
+
 
 .hr_gray {
     border: 1px solid #cccccc; 
