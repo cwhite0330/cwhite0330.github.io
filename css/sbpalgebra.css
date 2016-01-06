@@ -360,6 +360,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
     background-size: cover;
 }
 
+#alg1arev{
+    background: url("http://www.conejoadultschool.org/Academic/images/algebra.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #numberproperties{
     background: url("");
     background-repeat: no-repeat;
