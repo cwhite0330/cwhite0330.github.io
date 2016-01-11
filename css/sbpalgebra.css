@@ -37,8 +37,22 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     text-decoration: none;
 }
 
+.pull-center a{
+    color: #fff;
+    text-decoration: none;	
+}
+
+.pull-center{
+    top: 0;
+    margin: auto;
+}
+
 #email a{
     color: #800000;
+}
+
+#curriculum a{
+	color: #800000;
 }
 
 .pull-right a:hover, .pull-right a:focus{
@@ -236,7 +250,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 }
 
 .nav > li > a {
-    padding: 10px 10px;
+    padding: 10px 20px;
 }
 
 .nav > li > a:hover,
