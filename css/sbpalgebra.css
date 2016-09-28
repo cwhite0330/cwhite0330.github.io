@@ -368,32 +368,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 /*-----Lesson's CSS-----*/
 
-#appofpercents{
-    background: url("http://rationalnumbers.net/wp-content/images/rational-numbers.jpg");
+#prealgunit1{
+    background: url("http://gremathninja.com/wp-content/uploads/2oo31.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#alg1arev{
-    background: url("http://www.conejoadultschool.org/Academic/images/algebra.JPG");
+#prealgunit2{
+    background: url("http://content.gcflearnfree.org/topics/249/alg_writing_operators_2.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#unit1project{
-    background: url("http://www.enchantedlearning.com/math/decimals/placevalue/gifs/ex.GIF");
+#prealgunit3{
+    background: url("http://www.algebra-class.com/images/coordinate-plane-answers.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#foundations{
-    background: url("http://www.coolmath.com/sites/cmat/files/images/order-of-operations-03-14.gif");
+#prealgunit4{
+    background: url("http://www.mathmotivation.com/images/exponentproperties.GIF");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#linearfunctions{
-    background: url("http://www.regentsprep.org/regents/math/algebra/ac5/lineargraph.gif");
+#prealgunit5{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Intersecting_planes.svg/2000px-Intersecting_planes.svg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
