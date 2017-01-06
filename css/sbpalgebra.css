@@ -374,32 +374,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
     background-size: cover;
 }
 
-#prealgunit2{
-    background: url("http://content.gcflearnfree.org/topics/249/alg_writing_operators_2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#prealgunit3{
-    background: url("http://www.algebra-class.com/images/coordinate-plane-answers.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#prealgunit4{
-    background: url("http://www.mathmotivation.com/images/exponentproperties.GIF");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#prealgunit5{
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Intersecting_planes.svg/2000px-Intersecting_planes.svg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 #lineareq{
-    background: url("http://www.regentsprep.org/regents/math/algebra/ac5/lineargraph.gif");
+    background: url("http://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/graphing-linear-equations/graphing-linear-equations2.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
