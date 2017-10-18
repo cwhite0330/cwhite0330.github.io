@@ -380,6 +380,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
     background-size: cover;
 }
 
+#exeq{
+    background: url("http://1.bp.blogspot.com/-SYvL6oiwurQ/ULUUAlI_x4I/AAAAAAAAQ_M/x_baTWl46RQ/s1600/equations.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #lineareq{
     background: url("http://slideplayer.com/slide/7266952/24/images/8/Relations+and+Functions.jpg");
     background-repeat: no-repeat;
