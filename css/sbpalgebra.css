@@ -156,7 +156,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#393939', end
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-        background: url('../images/upperfieldnewark.jpg') no-repeat center center; 
+        background: url('../images/winter.png') no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
